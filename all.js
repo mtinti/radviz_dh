@@ -20,7 +20,7 @@ d3.csv('./data/indata.csv').then(
         
 	
 	const IDtable = document.querySelector('#data-table');//the container of table
-	const IDradviz = document.querySelector('#radviz');//the container of radviz
+	//const IDradviz = document.querySelector('#radviz');//the container of radviz
 	const titles = d3.keys(data[0]);//titles in the data table
 	const colorAccessor = function(d){ return d['class']; };//dimension used for coloring
 	const dimensions = ['G1','S','G2M','GG2M','LG'];//dimensions used for RadViz.
@@ -52,15 +52,18 @@ d3.csv('./data/indata.csv').then(
                     //    }
                     //});
                 
-                    tooltip_network.text(d.Geneid);
+                    //tooltip_network.text(d.Geneid);
                     //tooltip_network.append('div').text('pippo');
-                    tooltip_network.append("img")
-                            .attr("src","all_figures/"+d.Geneid+'.png')
-                            .attr("x", 0)
-                            .attr("y", 0)
-                            .attr("width","400px")
-                            .attr("height","200px");
-                    tooltip_network.style("visibility", "visible");
+                    //tooltip_network.append("img")
+                    //        .attr("src","all_figures/"+d.Geneid+'.png')
+                    //        .attr("x", 0)
+                    //        .attr("y", 0)
+                    //        .attr("width","400px")
+                    //        .attr("height","200px");
+                    //tooltip_network.style("visibility", "visible");
+
+                    $('#image_place img').remove();
+                    $('#image_place').prepend('<img class="img-responsive" style="padding-top: 5px" id="theImg" src="all_figures/'+d.Geneid+'.png" />')
                 
                 })
                 .on("mousemove", function(){return tooltip_network.style("top", (event.pageY-
