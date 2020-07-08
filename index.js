@@ -1,5 +1,5 @@
 // dataset: iris
-d3.csv('./data/indata2.csv').then(
+d3.csv('./data/indata3.csv').then(
 	function(data) {
 	
 	
@@ -7,7 +7,7 @@ d3.csv('./data/indata2.csv').then(
 	const IDradviz = document.querySelector('#radviz');//the container of radviz
 	const titles = d3.keys(data[0]);//titles in the data table
 	const colorAccessor = function(d){ return d['class']; };//dimension used for coloring
-	const dimensions = ['LG', 'G1', 'S', 'G2M', 'GG2M'];//dimensions used for RadViz.
+	const dimensions = ['LG1', 'G1', 'S', 'G2M', '>4C'];//dimensions used for RadViz.
 	const dimensionAnchor = Array.apply(null, 
 		{length: dimensions.length}).map(Number.call, Number).map(x=>x*2*Math.PI/(dimensions.length)); // intial DA configration;
 	

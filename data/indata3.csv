@@ -1,0 +1,740 @@
+Geneid,LG1,G1,S,G2M,>4C,desc,class
+Tb927.7.5050,204,734,1,441,739,hypothetical protein  conserved,>4C
+Tb927.11.5680,3,6,509,725,738,dynein light chain 1  axonemal,>4C
+Tb927.1.4310,197,151,576,435,737,Flagellum attachment zone protein 2,>4C
+Tb927.10.11250,1,4,664,689,736,Coiled-coil domain-containing protein 40 homolog,>4C
+Tb927.8.8200,123,35,714,400,735,Flagellar-associated protein 59  putative,>4C
+Tb927.10.13370,365,87,19,728,734,dynein light chain Tctex-type  putative,>4C
+Tb927.10.970,478,484,212,413,733,Tetratricopeptide repeat  putative,>4C
+Tb927.6.5030,375,237,434,461,732,Component of motile flagella protein 46,>4C
+Tb927.9.12820,417,165,118,699,731,dynein light chain  putative,>4C
+Tb927.11.7240,221,380,234,469,730,nexin-dynein regulatory complex 2,>4C
+Tb927.2.4060,111,10,563,706,729,Dynein intermediate chain 138,>4C
+Tb927.3.1120,245,1,2,739,728,GTP-binding nuclear protein rtb2  putative,G2M
+Tb927.11.9530,640,428,225,445,727,14-3-3 protein 1,>4C
+Tb927.10.2880,732,312,388,454,726,Voltage-dependent calcium channel subunit  putative,LG1
+Tb927.4.5380,160,243,593,373,725,Cilia- and flagella-associated protein 43,>4C
+Tb927.9.8820,176,112,583,446,724,hypothetical protein  conserved,>4C
+Tb927.11.15800,294,114,594,436,723,Cytokinesis initiation factor 1,>4C
+Tb927.4.2080,202,82,155,712,722,Coiled-coil and C2 domain-containing protein,>4C
+Tb927.10.3310,119,2,659,717,721,Component of motile flagella 76b,>4C
+Tb927.9.15050,6,21,3,738,720,nexin-dynein regulatory complex 4,G2M
+Tb927.3.3000,225,629,174,238,719,Putative intraflagellar transport protein C3,>4C
+Tb927.10.13960,88,90,533,564,718,paralyzed flagella protein 20,>4C
+Tb927.10.6350,148,703,12,371,717,trypanin,>4C
+Tb927.7.3550,269,44,486,668,716,cytoskeleton associated protein  putative,>4C
+Tb927.9.10890,97,241,357,532,715,Regulatory subunit of type II PKA R-subunit  putative,>4C
+Tb927.8.3150,156,3,600,724,714,T-complex protein 1  gamma subunit  putative,G2M
+Tb927.8.6940,132,135,475,585,713,hypothetical protein  conserved,>4C
+Tb927.7.2650,149,482,21,634,712,hypothetical protein  conserved,>4C
+Tb927.7.3560,302,507,469,230,711,Component of motile flagella 7,>4C
+Tb927.11.5000,109,140,11,729,710,Dynein intermediate chain 1  axonemal,G2M
+Tb927.3.2310,241,694,17,352,709,parkin coregulated gene protein,>4C
+Tb927.6.3150,658,510,226,351,708,Hydin,>4C
+Tb927.9.10550,311,20,62,733,707,Spindle assembly abnormal protein 6 homolog,G2M
+Tb927.11.3240,272,466,92,502,706,T-complex protein 1  zeta subunit  putative,>4C
+Tb927.8.3250,250,675,136,196,705,dynein heavy chain  putative,>4C
+Tb927.3.5540,112,68,525,611,704,dynein intermediate chain WDRD34  putative,>4C
+Tb927.11.11220,276,127,335,654,703,dynein heavy chain  putative,>4C
+Tb927.4.2050,41,458,49,605,702,hypothetical protein,>4C
+Tb927.8.4110,619,344,465,422,701,Flagellum adhesion protein 3  putative,>4C
+Tb927.7.3440,513,655,383,69,700,I/6 autoantigen,>4C
+Tb927.10.15260,141,16,512,710,699,leucine-rich repeat protein (LRRP)  putative,G2M
+Tb927.4.2060,595,49,389,686,698,Flagellum attachment zone protein 8,>4C
+Tb927.10.7880,350,216,98,695,697,Sperm tail/Sperm tail C-terminal domain containing protein  putative,>4C
+Tb927.10.5260,66,248,592,364,696,C2 domain containing protein  putative,>4C
+Tb927.11.14300,507,501,202,391,695,Dynein intermediate chain  axonemal,>4C
+Tb927.2.5270,177,98,574,459,694,dynein heavy chain  putative,>4C
+Tb927.1.2340,390,276,217,622,693,alpha tubulin,>4C
+Tb927.9.9100,38,402,14,700,692,hypothetical protein  conserved,G2M
+Tb927.8.8330,435,59,554,587,691,cysteine peptidase  putative,>4C
+Tb927.11.4540,671,521,329,233,690,Nucleoporin NUP48,>4C
+Tb927.10.4690,614,83,296,684,689,dynein light chain  putative,>4C
+Tb927.9.11270,335,193,219,664,688,t- complex protein 1 (eta subunit)  putative,>4C
+Tb927.10.1060,33,313,301,508,687,T-complex protein 1  delta subunit  putative,>4C
+Tb927.10.2640,146,47,410,685,686,intraflagellar transport protein 81,>4C
+Tb927.7.920,357,315,571,367,685,Inner arm dynein 5-1,>4C
+Tb927.9.4420,578,157,661,329,684,Beat-regulation protein,>4C
+Tb927.5.1690,330,555,376,144,683,hypothetical protein  conserved,>4C
+Tb927.11.8220,237,435,104,558,682,aurora B kinase,>4C
+Tb927.2.3020,584,726,4,386,681,Component of motile flagella 76,G1
+Tb927.6.2760,5,18,91,732,680,hypothetical protein  conserved,G2M
+Tb927.7.5760,152,173,149,688,679,nuclear transport factor 2 protein  putative,G2M
+Tb927.10.2380,137,360,397,433,678,Tetratricopeptide repeat  putative,>4C
+Tb927.8.4060,593,369,318,453,677,Flagellum adhesion protein 2  putative,>4C
+Tb927.9.9960,654,88,595,447,676,katanin P80 subunit  putative,>4C
+Tb927.7.820,117,115,736,116,675,dynein arm light chain  axonemal  putative,S
+Tb927.10.15250,162,58,44,727,674,paraflagellar rod component  putative,G2M
+Tb927.3.3450,19,130,132,703,673,ADP-ribosylation factor-like protein 3  putative,G2M
+Tb927.10.870,372,429,305,423,672,Furrow 1 protein,>4C
+Tb927.11.4480,527,86,494,617,671,Flagellar radial spoke protein 4/6,>4C
+Tb927.8.7420,187,226,706,204,670,TerD domain containing protein  putative,S
+Tb927.10.1170,236,321,549,387,669,intraflagellar transport protein 172,>4C
+Tb927.10.650,314,252,322,557,668,Component of motile flagella 17,>4C
+Tb927.9.12480,30,271,442,451,667,dynein light chain type 1  putative,>4C
+Tb927.11.8160,217,502,390,305,666,dynein heavy chain  putative,>4C
+Tb927.11.1090,247,287,374,462,665,calpain-like protein  putative,>4C
+Tb927.8.6920,661,515,239,327,664,hypothetical protein  conserved,>4C
+Tb927.11.4550,288,163,729,170,663,Domain of unknown function (DUF4200)  putative,S
+Tb927.10.8190,99,65,387,674,662,T-complex protein 1  theta subunit  putative,G2M
+Tb927.5.580,445,53,504,646,661,prefoldin subunit  putative,>4C
+Tb927.11.6050,430,448,422,362,660,Flagellar-associated PapD-like  putative,>4C
+Tb927.3.740,693,78,484,630,659,ZFP family member  putative,LG1
+Tb927.4.3740,368,52,492,656,658,flagellar attachment zone protein 1,>4C
+Tb927.9.14290,609,80,412,653,657,Cytokinesis initiation factor 2,>4C
+Tb927.6.1290,28,263,581,379,656,hypothetical protein  conserved,>4C
+Tb927.10.5240,544,393,245,458,655,cAMP binding protein  putative,>4C
+Tb927.7.1310,381,257,543,416,654,hypothetical protein  conserved,>4C
+Tb927.9.8350,349,325,363,455,653,hypothetical protein  conserved,>4C
+Tb927.5.2850,633,412,438,388,652,radial spoke protein RSP2  putative,>4C
+Tb927.5.1000,131,11,704,534,651,ubiquitin-conjugating enzyme E2  putative,S
+Tb927.10.1890,469,60,328,691,650,cysteine peptidase  Clan CA  family C2  putative,G2M
+Tb927.9.5440,536,29,257,720,649,actin  putative,G2M
+Tb927.4.2140,195,97,605,418,648,Component of motile flagella 8,>4C
+Tb927.10.14340,466,227,518,439,647,hypothetical protein  conserved,>4C
+Tb927.11.5750,210,308,451,437,646,SUMO-interacting motif-containing protein,>4C
+Tb927.11.18680,184,347,361,442,645,dynein light chain LC8  putative,>4C
+Tb927.7.3410,612,478,349,358,644,centrin-4,>4C
+Tb927.8.4780,268,125,308,661,643,Flagellar Member 3,G2M
+Tb927.11.14250,171,503,294,346,642,T-complex protein 1  epsilon subunit  putative,>4C
+Tb927.4.5370,576,511,38,444,641,Component of motile flagella 39,>4C
+Tb927.6.5070,191,96,538,546,640,hypothetical protein  conserved,>4C
+Tb927.11.3880,446,430,586,247,639,actin  putative,>4C
+Tb927.11.16090,574,95,567,464,638,Outer dynein arm docking complex protein 2  putative,>4C
+Tb927.6.4820,2,5,143,737,637,chromosomal passenger complex protein 1,G2M
+Tb927.11.3770,482,477,282,393,636,Dpy-30 motif containing protein  putative,>4C
+Tb927.4.5000,158,470,395,355,635,TerD domain containing protein  putative,>4C
+Tb927.2.4810,182,496,180,412,634,Component of motile flagella 5,>4C
+Tb927.10.2670,37,373,198,541,633,hypothetical protein  conserved,>4C
+Tb927.11.17000,626,351,348,448,632,AIR9-like protein,>4C
+Tb927.11.5510,462,417,562,302,631,dynein light chain p28  axonemal  putative,>4C
+Tb927.7.3370,512,212,496,456,630,Intraflagellar transport protein 74  putative,>4C
+Tb927.10.14990,306,385,467,405,629,intraflagellar transport protein 80,>4C
+Tb927.10.5380,323,345,446,427,628,intraflagellar transport protein 122,>4C
+Tb927.10.11310,75,39,493,673,627,intraflagellar transport protein 57/55,G2M
+Tb927.9.10370,421,300,546,403,626,TAX-1,>4C
+Tb927.6.3990,189,423,298,429,625,hypothetical protein  conserved,>4C
+Tb927.11.10900,262,348,89,652,624,Component of motile flagella 9,G2M
+Tb927.11.2270,142,488,242,395,623,inner dynein arm I1 intermediate chain  axonemal,>4C
+Tb927.11.15100,207,181,698,272,622,Tb5.20,S
+Tb927.11.1150,386,222,125,683,621,radial spoke protein 3,G2M
+Tb927.11.14210,301,240,243,623,620,conserved protein,G2M
+Tb927.8.2630,257,485,170,426,619,kinesin-C,>4C
+Tb927.10.12590,348,304,369,460,618,hypothetical protein  conserved,>4C
+Tb927.4.2640,282,284,582,368,617,hypothetical protein  conserved,>4C
+Tb927.6.3560,396,352,216,555,616,hypothetical protein  conserved,>4C
+Tb927.10.8830,329,651,26,377,615,Flagellum attachment zone protein 5,G1
+Tb927.8.1560,15,93,402,650,614,hypothetical protein  conserved,G2M
+Tb927.10.7060,271,81,173,708,613,Nucleoporin NUP96,G2M
+Tb927.5.2090,399,422,599,214,612,kinesin  putative,>4C
+Tb927.3.690,12,57,207,714,611,CMGC/RCK protein kinase  putative,G2M
+Tb927.7.6910,115,101,575,457,610,Phosphatidylinositol 4-phosphate 5-kinase  putative,>4C
+Tb927.1.2670,542,576,307,178,609,paralyzed flagella 16,>4C
+Tb927.5.4570,307,383,437,410,608,Flagellum adhesion protein 3,>4C
+Tb927.4.870,406,185,319,627,607,dynein heavy chain  putative,G2M
+Tb927.10.12630,384,136,724,210,606,hypothetical protein  conserved,S
+Tb927.11.6870,525,371,250,465,605,14-3-3 protein 2,>4C
+Tb927.2.4520,315,405,572,303,604,hypothetical protein  conserved,>4C
+Tb927.3.5490,107,62,471,657,603,Putative intraflagellar transport protein B2,G2M
+Tb927.10.8940,281,61,579,530,602,flagellum targeting protein kharon1  putative,>4C
+Tb927.5.1900,106,489,54,490,601,Outer dynein arm docking complex protein 1  putative,>4C
+Tb927.10.450,547,447,498,334,600,Component of motile flagella 62,>4C
+Tb927.9.7690,410,124,573,452,599,SUMO-interacting motif-containing protein,>4C
+Tb927.11.15190,129,445,392,383,598,Domain of unknown function (DUF4200)  putative,>4C
+Tb927.8.4870,125,126,591,432,597,Component of motile flagella 6,>4C
+Tb927.7.2240,47,518,458,175,596,hypothetical protein  conserved,>4C
+Tb927.11.15560,731,691,530,9,595,Nucleoporin NUP53a,LG1
+Tb927.6.4140,36,357,56,670,594,paraflagellar rod component  putative,G2M
+Tb927.8.4910,52,571,67,359,593,hypothetical protein  conserved,>4C
+Tb927.11.5560,65,500,495,242,592,hypothetical protein  conserved,>4C
+Tb927.10.5350,128,107,553,481,591,dynein heavy chain  putative,>4C
+Tb927.11.1590,736,8,739,113,590,hypothetical protein  conserved,S
+Tb927.9.3440,82,397,378,420,589,cyclophilin type peptidyl-prolyl cis-trans isomerase  putative,>4C
+Tb927.10.14470,64,197,418,539,588,intraflagellar transport protein 140,>4C
+Tb927.7.3130,360,249,597,360,587,Transition Zone Protein 103 kDa,S
+Tb927.5.2410,382,123,261,677,586,kinesin  putative,G2M
+Tb927.6.3100,413,295,608,295,585,Intraflagellar transport complex B protein 46 C terminal  putative,S
+Tb927.10.14980,74,505,185,384,584,intraflagellar transport protein 52,>4C
+Tb927.10.2520,570,75,100,718,583,PrimPol-like protein 2,G2M
+Tb927.11.11090,242,138,542,463,582,Nucleoporin NUP140,>4C
+Tb927.4.560,279,206,267,633,581,Cytoplasmic dynein 2 heavy chain (DYNC2H1)  putative,G2M
+Tb927.4.660,100,26,623,533,580,hypothetical protein  conserved,S
+Tb927.6.840,420,73,607,428,579,hypothetical protein  conserved,S
+Tb927.10.2950,344,254,561,406,578,hypothetical protein  conserved,>4C
+Tb927.10.15080,699,207,589,402,577,WD40 Repeat 1,LG1
+Tb927.9.6130,646,291,449,440,576,calmodulin  putative,LG1
+Tb927.4.1300,318,279,552,407,575,amidinotransferase  putative,>4C
+Tb927.10.9770,367,290,272,566,574,gamma-tubulin complex component 2,>4C
+Tb927.3.5550,34,341,205,584,573,intraflagellar transport protein 27,G2M
+Tb927.4.2190,181,147,718,244,572,GTP-binding protein  putative,S
+Tb927.11.3250,174,294,577,365,571,dynein heavy chain  putative,S
+Tb927.10.12130,364,76,338,679,570,Ubiquitin family  putative,G2M
+Tb927.9.13520,459,331,507,411,569,Importin 1,>4C
+Tb927.7.7400,93,381,222,491,568,Basal body protein,>4C
+Tb927.3.2760,556,195,584,414,567,hypothetical protein  conserved,S
+Tb927.7.5610,577,307,544,398,566,hypothetical protein  conserved,LG1
+Tb927.9.13440,555,335,555,369,565,Flagellar Member 5,>4C
+Tb927.11.13700,520,34,181,722,564,Basal body protein,G2M
+Tb927.5.3030,211,282,517,424,563,Intraflagellar transport protein 121,>4C
+Tb927.11.16150,4,17,601,660,562,tubulin binding cofactor A  putative,G2M
+Tb927.9.12990,308,274,569,389,561,hypothetical protein  conserved,S
+Tb927.10.8780,451,174,386,604,560,AAA domain containing protein  putative,G2M
+Tb927.11.800,392,265,489,438,559,prefoldin subunit  putative,>4C
+Tb927.10.14010,439,425,501,348,558,tubulin cofactor C domain-containing protein RP2,>4C
+Tb927.11.3500,62,517,235,326,557,Dpy-30 motif containing protein  putative,>4C
+Tb927.11.10430,71,442,284,421,556,hypothetical protein  conserved,>4C
+Tb927.10.6330,76,28,411,713,555,kinetoplastid kinetochore protein 1,G2M
+Tb927.4.2000,8,33,537,676,554,ruvB-like DNA helicase  putative,G2M
+Tb927.11.12410,485,210,379,571,553,kinetoplastid kinetochore protein 10,G2M
+Tb927.4.2820,246,24,350,716,552,hypothetical protein  conserved,G2M
+Tb927.8.6950,465,472,83,486,551,roadblock/LC7 family member,>4C
+Tb927.4.430,296,14,683,529,550,proteasome beta 7 subunit,S
+Tb927.7.5040,492,70,206,705,549,kinesin  putative,G2M
+Tb927.10.8240,333,234,279,614,548,hypothetical protein  conserved,G2M
+Tb927.9.9450,206,317,321,479,547,zinc finger protein family member  putative,>4C
+Tb927.6.4770,122,186,197,672,546,protein mkt1  putative,G2M
+Tb927.11.2540,356,43,293,704,545,hypothetical protein  conserved,G2M
+Tb927.11.2430,300,199,444,514,544,Cytoplasmic dynein 2 heavy chain (DYNC2H2)  putative,>4C
+Tb927.10.4710,135,133,524,494,543,proteasome subunit beta type-2  putative,>4C
+Tb927.11.1740,277,149,323,647,542,intraflagellar transport protein 88,G2M
+Tb927.1.1100,278,131,515,524,541,Basal body protein,>4C
+Tb927.4.2040,259,585,366,124,540,DNA/RNA-binding protein Alba 3,G1
+Tb927.1.4650,533,231,231,643,539,cyclin-like F-box protein 2,G2M
+Tb927.11.13300,274,229,254,628,538,Intraflagellar transport protein 25,G2M
+Tb927.9.9740,688,399,129,574,537,AMP deaminase  putative,LG1
+Tb927.11.16760,422,56,717,342,536,T-complex protein 1  alpha subunit  putative,S
+Tb927.11.2880,81,41,534,648,535,kinesin  putative,G2M
+Tb927.11.2370,706,522,103,375,534,mRNA export factor MEX67,LG1
+Tb927.10.4640,355,155,425,596,533,eukaryotic translation initiation factor 3 subunit l,G2M
+Tb927.8.1920,738,710,7,401,532,histone-lysine n-methyltransferase,LG1
+Tb927.3.2890,637,218,354,578,531,radial spoke protein RSP10  putative,LG1
+Tb927.9.2490,730,9,578,701,530,nucleolar protein,LG1
+Tb927.1.2330,452,275,346,496,529,beta tubulin,>4C
+Tb927.8.4970,660,12,430,719,528,Paraflagellar rod protein 2-1,G2M
+Tb927.7.6310,154,245,196,644,527,polo-like protein kinase,G2M
+Tb927.11.16810,39,408,29,669,526,dynein light intermediate chain D1bLIC  putative,G2M
+Tb927.11.260,263,162,464,554,525,Putative intraflagellar transport protein F6,G2M
+Tb927.7.6360,389,42,90,723,524,histone H2A variant Z,G2M
+Tb927.10.4990,599,85,426,645,523,cdc2-related kinase 3,G2M
+Tb927.6.1660,183,354,253,489,522,hypothetical protein  conserved,>4C
+Tb927.2.5240,85,330,169,621,521,pre-mRNA splicing factor 19,G2M
+Tb927.6.4060,24,167,738,17,520,Eukaryotic protein of unknown function (DUF872)  putative,S
+Tb927.5.4170,563,71,722,301,519,histone H4  putative,S
+Tb927.8.6070,320,141,532,470,518,Trypanosome basal body component protein,S
+Tb927.11.1030,69,38,603,480,517,kinetoplastid kinetochore protein 7,S
+Tb927.11.14880,90,122,540,488,516,Paraflagellar Rod Proteome Component 9  putative,S
+Tb927.10.3970,310,119,407,632,515,hypothetical protein  conserved,G2M
+Tb927.8.1540,719,454,503,321,514,hypothetical protein  conserved,LG1
+Tb927.6.4670,9,36,28,734,513,MORN repeat-containing protein 1,G2M
+Tb927.8.940,455,191,336,615,512,Flagella connector protein 1,G2M
+Tb927.4.2260,428,7,488,721,511,centrin-1,G2M
+Tb927.11.15750,707,481,295,381,510,AMP deaminase  putative,LG1
+Tb927.7.2550,408,25,560,680,509,proteasome regulatory ATPase subunit 5,G2M
+Tb927.4.1850,668,715,423,10,508,hypothetical protein  conserved,G1
+Tb927.11.8350,522,201,259,641,507,katanin p60 ATPase containing subunit A  putative,G2M
+Tb927.11.3580,617,680,138,177,506,Thiamin pyrophosphokinase  vitamin B1 binding domain containing protein  putative,G1
+Tb927.11.7840,22,153,175,690,505,ribonucleoside-diphosphate reductase large chain,G2M
+Tb927.7.4700,253,390,13,707,504,WD domain  G-beta repeat  putative,G2M
+Tb927.8.4580,201,387,122,600,503,Basal body protein,G2M
+Tb927.10.5620,133,739,24,2,502,fructose-bisphosphate aldolase  glycosomal,G1
+Tb927.5.570,353,113,479,608,501,hypothetical protein  conserved,G2M
+Tb927.10.8820,432,128,482,586,500,hook complex protein  conserved,G2M
+Tb927.11.16830,292,192,727,142,499,Rab-like 5  small G protein,S
+Tb927.10.11100,710,676,545,12,498,deoxyribodipyrimidine photo-lyase  putative,LG1
+Tb927.5.590,602,366,135,613,497,protein phosphatase 1  regulatory subunit  putative,G2M
+Tb927.9.5190,92,64,616,419,496,proliferative cell nuclear antigen (PCNA)  putative,S
+Tb927.1.730,87,607,548,32,495,NADH-ubiquinone oxidoreductase complex I subunit  putative,G1
+Tb927.3.5580,501,636,436,64,494,tryptophanyl-tRNA synthetase,G1
+Tb927.8.890,629,232,42,709,493,Ras-related protein Rab1A,G2M
+Tb927.8.3850,582,208,459,474,492,PSP1 C-terminal conserved region  putative,LG1
+Tb927.6.1770,261,19,82,731,491,kinesin  putative,G2M
+Tb927.11.8230,226,453,47,612,490,hypothetical protein  conserved,G2M
+Tb927.6.3690,721,215,728,120,489,pre-mRNA cleavage complex II Clp1-like  conserved,S
+Tb927.9.9670,222,30,500,693,488,proteasome alpha 1 subunit  putative,G2M
+Tb927.8.4540,172,74,362,671,487,PAB1-binding protein   putative,G2M
+Tb927.10.3990,572,677,79,262,486,DHH1,G1
+Tb927.5.3560,78,314,278,531,485,vesicle-associated membrane protein  putative,G2M
+Tb927.8.570,458,99,416,640,484,proteasome regulatory non-ATP-ase subunit 10,G2M
+Tb927.3.1030,648,526,269,236,483,RNA-binding protein,LG1
+Tb927.6.2170,27,221,720,149,482,co-chaperone GrpE  putative,S
+Tb927.10.1520,223,198,417,540,481,ras-related protein Rab21  putative,G2M
+Tb927.11.14890,624,634,215,193,480,DNA polymerase alpha/epsilon subunit B  putative,G1
+Tb927.5.460,192,358,165,599,479,hypothetical protein  conserved,G2M
+Tb927.11.2130,205,225,326,594,478,proteasome regulatory non-ATP-ase subunit 3,G2M
+Tb927.4.5200,340,84,519,595,477,Nucleoporin NUP62,G2M
+Tb927.11.9940,541,717,313,27,476,hypothetical protein  conserved,G1
+Tb927.9.2470,291,251,107,681,475,nucleolar protein,G2M
+Tb927.10.5760,95,690,152,129,474,adenylate kinase  putative,G1
+Tb927.11.14330,220,409,675,81,473,HECT-domain (ubiquitin-transferase)  putative,S
+Tb927.8.2890,709,605,187,254,472,hypothetical protein  conserved,LG1
+Tb927.10.230,7,27,41,736,471,proteasome subunit alpha type-5  putative,G2M
+Tb927.3.720,209,692,373,39,470,zinc finger protein 3,G1
+Tb927.11.5520,546,708,186,82,469,triosephosphate isomerase,G1
+Tb927.11.7160,678,495,341,341,468,cdc2-related kinase 8  putative,LG1
+Tb927.10.9230,387,569,320,172,467,beta adaptin  putative,G1
+Tb927.11.14860,426,319,229,588,466,hypothetical protein  conserved,G2M
+Tb927.1.3000,232,563,101,343,465,amidohydrolase  putative,G1
+Tb927.11.3400,31,298,697,155,464,hypothetical protein  conserved,S
+Tb927.6.1630,168,679,399,44,463,hypothetical protein  conserved,G1
+Tb927.9.14480,400,410,116,579,462,dynein-associated protein  putative,G2M
+Tb927.10.13970,23,161,511,478,461,uracil-DNA glycosylase  putative,S
+Tb927.8.6230,173,588,126,308,460,hypothetical protein  conserved,G1
+Tb927.10.14680,443,686,233,98,459,ribosome biogenesis protein  putative,G1
+Tb927.11.14090,14,89,439,638,458,Double RNA binding domain protein 18,G2M
+Tb927.11.2720,696,332,551,380,457,hypothetical protein  conserved,LG1
+Tb927.10.3570,118,628,137,267,456,RNA editing exonuclease 2,G1
+Tb927.10.15850,540,724,35,146,455,Peroxisome biogenesis factor 12,G1
+Tb927.5.2940,126,592,40,378,454,stress-induced protein sti1  putative,G1
+Tb927.11.1100,411,46,15,735,453,cysteine peptidase  Clan CA  family C2  putative,G2M
+Tb927.7.6090,147,407,162,513,452,eukaryotic translation initiation factor 3 subunit a,G2M
+Tb927.10.290,476,401,145,548,451,proteasome alpha 2 subunit  putative,G2M
+Tb927.8.1170,490,700,182,106,450,eukaryotic translation initiation factor 3 subunit h,G1
+Tb927.11.10640,598,614,64,339,449,DNA-(apurinic or apyrimidinic site) lyase  putative,G1
+Tb927.8.8300,244,414,150,517,448,amino acid transporter  putative,G2M
+Tb927.4.3130,21,144,516,495,447,Component of motile flagella 18,S
+Tb927.10.1490,134,707,440,14,446,Temperature dependent protein affecting M2 dsRNA replication  putative,G1
+Tb927.7.2230,49,545,218,271,445,mitochondrial carrier protein  putative,G1
+Tb927.10.150,96,183,339,618,444,hypothetical protein  conserved,G2M
+Tb927.1.4830,656,15,570,692,443,phospholipase A1,G2M
+Tb927.11.11240,316,299,631,239,442,hypothetical protein  conserved,S
+Tb927.11.15490,370,589,258,205,441,Tb-291 membrane associated protein  putative,G1
+Tb927.5.620,169,109,487,606,440,invariant surface glycoprotein  putative,G2M
+Tb927.11.1210,373,326,304,487,439,Domain of unknown function (DUF4470)/Domain of unknown function (DUF4471)  putative,G2M
+Tb927.11.4970,630,549,113,338,438,predicted WD40 repeat protein,LG1
+Tb927.10.4850,159,328,687,148,437,hypothetical protein  conserved,S
+Tb927.7.4340,530,552,490,83,436,Protein of unknown function (DUF1253)  putative,G1
+Tb927.11.1940,569,374,184,559,435,hypothetical protein  conserved,LG1
+Tb927.3.5170,130,66,726,287,434,mediator of rna polymerase ii transcription subunit 3,S
+Tb927.10.7090,481,719,133,76,433,Alternative oxidase  mitochondrial,G1
+Tb927.10.10770,666,175,682,291,432,Generative cell specific 1 protein  putative,S
+Tb927.7.680,734,465,291,408,431,chaperone protein DnaJ  putative,LG1
+Tb927.3.4720,729,459,394,374,430,dynamin-1-like protein,LG1
+Tb927.2.3930,698,270,148,655,429,dna replication licensing factor mcm3,LG1
+Tb927.2.4560,179,624,334,114,428,Rab-GTPase-TBC domain containing protein  putative,G1
+Tb927.11.15660,11,45,585,563,427,hypothetical protein  conserved,S
+Tb927.10.5600,603,578,255,216,426,hypothetical protein  conserved,LG1
+Tb927.4.2220,479,22,536,696,425,TPR-repeat-containing chaperone protein DNAJ  putative,G2M
+Tb927.11.13460,497,665,151,199,424,hypothetical protein  conserved,G1
+Tb927.6.2200,437,542,404,128,423,DJ-1 family protein  putative,G1
+Tb927.11.4530,498,608,214,225,422,N-acetyltransferase subunit ARD1,G1
+Tb927.10.13650,72,67,192,711,421,ADP-ribosylation factor-like protein 2-binding protein  putative,G2M
+Tb927.7.2670,110,120,719,266,420,zinc finger protein family member  putative,S
+Tb927.11.1600,610,388,693,87,419,tatD related deoxyribonuclease  putative,S
+Tb927.9.10150,264,450,660,65,418,hypothetical protein  conserved,S
+Tb927.11.2010,441,443,630,78,417,hypothetical protein  conserved,S
+Tb927.6.2040,659,648,8,450,416,nitrate reductase  putative,LG1
+Tb927.10.14190,503,664,408,55,415,hypothetical protein  conserved,G1
+Tb927.6.3500,407,342,209,583,414,endosomal trafficking protein RME-8  putative,G2M
+Tb927.5.3950,190,635,415,71,413,2OG-Fe(II) oxygenase superfamily  putative,G1
+Tb927.11.3420,203,527,134,332,412,leucine-rich repeat protein (LRRP)  putative,G1
+Tb927.10.6700,227,273,641,252,411,Kinetochore interacting protein 3,S
+Tb927.10.15930,590,580,453,89,410,pdz domain containing protein  putative,LG1
+Tb927.7.930,550,504,5,694,409,zinc finger CCCH domain containing protein 17,G2M
+Tb927.9.2030,713,432,384,399,408,Orc1-like protein,LG1
+Tb927.5.3810,690,520,86,390,407,orotidine-5-phosphate decarboxylase/orotate phosphoribosyltransferase  putative,LG1
+Tb927.3.5620,239,91,194,702,406,Facilitates chromatin transcription complex subunit spt16,G2M
+Tb927.6.2840,635,396,172,523,405,Serine/threonine-protein kinase RIO2  putative,LG1
+Tb927.11.160,26,200,480,467,404,hypothetical protein  conserved,S
+Tb927.11.13410,16,106,657,357,403,hypothetical protein  conserved,S
+Tb927.10.12670,258,367,183,580,402,hypothetical protein  conserved,G2M
+Tb927.7.2160,433,446,115,504,401,hypothetical protein  conserved,G2M
+Tb927.6.2090,254,164,653,330,400,pdz domain containing protein  putative,S
+Tb927.4.3770,724,623,262,158,399,calcium/calmodulin-dependent protein kinase  putative,LG1
+Tb927.1.780,510,609,457,73,398,leucine-rich repeat-containing protein,G1
+Tb927.11.4490,580,188,707,245,397,long-chain-fatty-acid-CoA ligase  putative,S
+Tb927.5.1150,561,343,672,147,396,RNA helicase Prp43,S
+Tb927.10.8710,42,462,66,565,395,centrin-3,G2M
+Tb927.11.7270,568,132,520,518,394,proteasome beta 3 subunit  putative,LG1
+Tb927.3.5220,161,573,452,92,393,hypothetical protein  conserved,G1
+Tb927.11.10520,528,55,645,417,392,kinetoplastid kinetochore protein 2,S
+Tb927.3.2790,186,255,359,503,391,leucine-rich repeat protein (LRRP)  putative,G2M
+Tb927.5.2770,151,540,588,25,390,SET domain containing protein  putative,S
+Tb927.1.1420,265,701,445,19,389,conserved protein  unknown function,G1
+Tb927.9.10000,304,593,472,75,388,hypothetical protein  conserved,G1
+Tb927.11.920,597,632,249,154,387,hypothetical protein  conserved,G1
+Tb927.3.3540,13,69,547,582,386,Nucleoporin NUP53b,G2M
+Tb927.5.1750,198,508,649,16,385,conserved protein  unknown function,S
+Tb927.11.4850,401,365,609,198,384,hypothetical protein  conserved,S
+Tb927.7.5790,506,610,23,415,383,protein disulfide isomerase  putative,G1
+Tb927.7.2950,325,293,287,550,382,ATPase family associated with various cellular activities (AAA)  putative,G2M
+Tb927.10.2810,733,525,470,109,381,hypothetical protein  conserved,LG1
+Tb927.10.4540,29,266,656,235,380,ARP2/3 complex subunit  putative,S
+Tb927.10.10390,472,301,681,174,379,trypanothione reductase,S
+Tb927.5.2590,684,494,456,289,378,Macro domain containing protein  putative,LG1
+Tb927.7.2040,532,631,283,130,377,hypothetical protein  conserved,G1
+Tb927.11.14950,548,455,119,468,376,zinc finger protein 2,LG1
+Tb927.10.540,644,171,396,601,375,ATP-dependent RNA helicase SUB2  putative,LG1
+Tb927.8.2090,194,415,60,629,374,cyclophilin type peptidyl-prolyl cis-trans isomerase  putative,G2M
+Tb927.11.14390,425,244,671,237,373,hypothetical protein  conserved,S
+Tb927.7.3880,170,457,59,591,372,Basal body protein,G2M
+Tb927.5.810,305,599,210,246,371,zinc finger CCCH domain containing protein 11,G1
+Tb927.6.3290,145,204,401,556,370,intraflagellar transport protein 20,G2M
+Tb927.10.15870,511,152,725,188,369,RNA binding protein  putative,S
+Tb927.9.13070,17,117,419,625,368,Heat shock factor binding 1 domain-containing protein,G2M
+Tb927.8.5730,249,713,420,13,367,STE20-like serine/threonine-protein kinase 1  putative,G1
+Tb927.7.6250,229,379,177,552,366,Centrosomal protein of 120 kDa  putative,G2M
+Tb927.7.7080,620,441,73,581,365,mitochondrial glycoprotein-like protein,LG1
+Tb927.11.14870,700,497,351,336,364,NAD+ synthase  putative,LG1
+Tb927.8.4850,493,546,45,396,363,hypothetical protein  conserved,G1
+Tb927.10.10870,677,483,510,269,362,CMGC family protein kinase  putative,LG1
+Tb927.2.2440,383,258,342,521,361,proteasome regulatory non-ATPase subunit 6,G2M
+Tb927.6.630,363,568,271,212,360,hypothetical protein  conserved,G1
+Tb927.10.960,589,729,16,223,359,U4/U6-specific protein PRP4,G1
+Tb927.6.2000,628,556,337,168,358,spliceosome-associated protein  putative,LG1
+Tb927.3.5280,608,600,367,115,357,spliceosome-associated protein 49  putative,LG1
+Tb927.11.16720,483,100,199,698,356,mitotic cyclin 6,G2M
+Tb927.5.2720,538,572,191,273,355,zinc finger protein ZPR1,G1
+Tb927.6.910,675,439,587,227,354,SET domain containing protein  putative,LG1
+Tb927.6.2120,607,509,703,6,353,hypothetical protein  conserved,S
+Tb927.9.7520,720,438,371,394,352,hypothetical protein  conserved,LG1
+Tb927.8.620,391,129,730,189,351,KREPA3,S
+Tb927.11.5860,715,403,528,350,350,AGC/RSK family serine/threonine kinase  putative,LG1
+Tb927.10.3850,650,562,398,122,349,hypothetical protein  conserved,LG1
+Tb927.6.3330,594,349,677,132,348,hypothetical protein  conserved,S
+Tb927.8.2780,341,727,69,86,347,RNA-binding protein RBP10  putative,G1
+Tb927.11.2120,663,544,483,91,346,CBF/Mak21 family  putative,LG1
+Tb927.5.4560,199,550,244,251,345,guanine deaminase  putative,G1
+Tb927.5.3690,529,421,84,598,344,hypothetical protein  conserved,G2M
+Tb927.6.3860,517,411,156,511,343,leucyl/phenylalanyl-tRNA protein transferase  putative,LG1
+Tb927.7.1100,56,644,485,47,342,hypothetical protein  conserved,G1
+Tb927.9.10580,651,582,57,372,341,3-demethylubiquinone-9 3-methyltransferase  putative,LG1
+Tb927.6.2640,717,491,414,314,340,importin alpha subunit  putative,LG1
+Tb927.7.6750,266,480,618,61,339,hypothetical protein  conserved,S
+Tb927.10.13560,444,642,377,80,338,mevalonate-diphosphate decarboxylase,G1
+Tb927.6.850,321,531,405,135,337,ccr4-not transcription complex subunit 2,G1
+Tb927.8.1600,208,384,638,131,336,lysyl-tRNA synthetase  putative,S
+Tb927.10.4680,703,468,360,370,335,Mutt-Nudix-related hydrolase 5  putative,LG1
+Tb927.7.3540,440,620,251,173,334,hypothetical protein  conserved,G1
+Tb927.10.10980,337,426,65,616,333,heat shock protein 90  putative,G2M
+Tb927.6.3480,185,452,123,472,332,RNA-binding protein  putative,G2M
+Tb927.6.1170,564,718,18,298,331,Aph-1 protein  putative,G1
+Tb927.10.9220,228,584,112,325,330,hypothetical protein  conserved,G1
+Tb927.10.3950,378,217,699,231,329,hypothetical protein  conserved,S
+Tb927.3.5390,200,712,232,59,328,Ring finger domain containing protein  putative,G1
+Tb927.8.4470,442,92,647,376,327,chaperone protein DnaJ  putative,S
+Tb927.5.2790,627,272,633,257,326,mitochondrial DNA polymerase beta-PAK,S
+Tb927.10.12660,358,722,153,62,325,pumilio/PUF RNA binding protein 2,G1
+Tb927.6.1090,539,159,481,544,324,proteasome regulatory ATPase subunit 3,G2M
+Tb927.2.2830,473,111,505,577,323,hypothetical protein  conserved,G2M
+Tb927.10.15690,694,487,352,347,322,anaphase promoting complex  subunit 10-like protein,LG1
+Tb927.8.6140,175,292,268,569,321,Galactose oxidase  central domain/Kelch motif containing protein  putative,G2M
+Tb927.11.950,212,705,190,84,320,RNA-binding protein  putative,G1
+Tb927.2.3190,591,362,227,525,319,Got1/Sft2-like family  putative,LG1
+Tb927.5.3240,449,364,204,551,318,hypothetical protein  conserved,G2M
+Tb927.2.2410,488,661,224,141,317,hypothetical protein  conserved,G1
+Tb927.11.7580,725,476,506,281,316,hypothetical protein  conserved,LG1
+Tb927.7.550,342,392,213,471,315,WD domain  G-beta repeat  putative,G2M
+Tb927.7.1670,723,261,526,425,314,Eukaryotic translation initiation factor 4E type 6,LG1
+Tb927.6.350,48,524,610,7,313,hypothetical protein  conserved,S
+Tb927.1.1130,636,309,734,33,312,glycerol-3-phosphate dehydrogenase (FAD-dependent)  putative,S
+Tb927.4.840,404,709,63,191,311,Histidine kinase-  DNA gyrase B-  and HSP90-like ATPase  putative,G1
+Tb927.11.11440,86,23,564,682,310,A/G-specific adenine glycosylase  putative,G2M
+Tb927.7.7120,398,172,628,335,309,kinesin  putative,S
+Tb927.6.3950,592,395,208,475,308,hypothetical protein  conserved,LG1
+Tb927.11.5040,412,50,527,636,307,leucine-rich repeat protein (LRRP)  putative,G2M
+Tb927.4.1120,178,602,76,337,306,hypothetical protein  conserved,G1
+Tb927.3.2070,618,143,450,592,305,hypothetical protein  conserved,LG1
+Tb927.10.2440,260,666,200,153,304,Metacaspase-4,G1
+Tb927.11.11640,669,170,667,312,303,DNA replication licensing factor MCM6,LG1
+Tb927.10.6030,25,180,289,642,302,proteasome subunit alpha type-1  putative,G2M
+Tb927.4.4920,701,473,590,156,301,hypothetical protein  conserved,LG1
+Tb927.6.3180,692,289,309,528,300,hypothetical protein  conserved,LG1
+Tb927.11.12120,588,223,435,482,299,RNA-binding protein  putative,LG1
+Tb927.3.5070,290,247,403,477,298,hypothetical protein  conserved,G2M
+Tb927.2.3000,722,363,330,449,297,hypothetical protein  conserved,LG1
+Tb927.11.3480,362,297,167,637,296,Sin-like protein conserved region  putative,G2M
+Tb927.11.10300,557,637,61,333,295,hypothetical protein  conserved,G1
+Tb927.10.6710,157,682,365,49,294,hypothetical protein  conserved,G1
+Tb927.11.10000,215,209,622,316,293,Charged multivesicular body protein 3  putative,S
+Tb927.6.2060,405,736,117,15,292,histidyl-tRNA synthetase,G1
+Tb927.11.12060,682,427,602,180,291,Peroxisomal biogenesis factor 11 (PEX11)  putative,LG1
+Tb927.11.4040,551,551,508,72,290,hypothetical protein  conserved,LG1
+Tb927.6.4590,509,305,669,192,289,glutamyl-tRNA synthetase  putative,S
+Tb927.11.11760,77,633,58,340,288,hypothetical protein  conserved,G1
+Tb927.3.3510,116,196,646,310,287,hypothetical protein  conserved,S
+Tb927.6.2740,354,169,710,248,286,pyridoxal kinase,S
+Tb927.10.9250,712,523,290,249,285,adenylyl cyclase-associated protein  putative,LG1
+Tb927.11.2930,571,471,43,589,284,membrane-associated protein  putative,G2M
+Tb927.11.7180,687,370,332,443,283,MORN repeat  putative,LG1
+Tb927.5.3020,600,543,263,232,282,hypothetical protein  conserved,LG1
+Tb927.5.2690,403,359,665,143,281,inositol-1(or 4)-monophosphatase 1  putative,S
+Tb927.8.2980,289,375,702,88,280,Bis(5'-adenosyl)-triphosphatase  putative,S
+Tb927.10.12760,515,350,634,182,279,zinc finger protein family member  putative,S
+Tb927.11.5570,361,246,655,258,278,DNA replication licensing factor MCM5,S
+Tb927.5.1090,683,431,558,288,277,threonyl-tRNA synthetase  putative,LG1
+Tb927.10.1550,467,203,325,610,276,proteasome regulatory non-ATP-ase subunit 5,G2M
+Tb927.8.7220,616,134,523,498,275,tousled-like kinase II,LG1
+Tb927.11.9220,104,31,737,306,274,proteasome regulatory non-ATP-ase subunit 2,S
+Tb927.10.4190,83,640,474,51,273,hypothetical protein,G1
+Tb927.7.1090,579,557,345,157,272,DNA repair protein RAD5  putative,LG1
+Tb927.3.5350,380,239,391,510,271,hypothetical protein  conserved,G2M
+Tb927.11.5440,680,467,529,279,270,NADP-dependent malic enzyme  cytosolic,LG1
+Tb927.1.700,565,723,353,11,269,phosphoglycerate kinase,G1
+Tb927.11.2580,275,532,95,353,268,Present in the outer mitochondrial membrane proteome 11,G1
+Tb927.11.12280,457,253,327,545,267,hypothetical protein  conserved,G2M
+Tb927.11.13890,697,433,266,431,266,AKAP7 2'5' RNA ligase-like domain containing protein  putative,LG1
+Tb927.7.2400,454,322,712,107,265,tyrosyl-tRNA synthetase  putative,S
+Tb927.11.3030,622,575,424,105,264,phosphoribosylpyrophosphate synthetase  putative,LG1
+Tb927.7.5160,374,469,691,36,263,deoxyuridine triphosphatase  putative,S
+Tb927.7.6450,436,490,617,48,262,tRNA-dihydrouridine synthase 3  putative,S
+Tb927.10.5150,575,687,52,274,261,zinc finger protein family member  putative,G1
+Tb927.7.2290,424,184,432,553,260,hypothetical protein  conserved,G2M
+Tb927.3.1680,521,440,68,593,259,Eukaryotic translation initiation factor 3 subunit F,G2M
+Tb927.7.1080,297,156,499,512,258,hypothetical protein  conserved,G2M
+Tb927.6.4240,35,355,676,123,257,hypothetical protein  conserved,S
+Tb927.10.13240,566,256,690,200,256,hypothetical protein  conserved,S
+Tb927.4.2900,487,103,612,392,255,hypothetical protein  conserved,S
+Tb927.6.4600,101,302,709,121,254,pre-mRNA splicing factor ATP-dependent RNA helicase  putative,S
+Tb927.4.4990,44,479,39,576,253,ubiquinol-cytochrome c reductase  putative,G2M
+Tb927.2.5010,46,513,6,678,252,Meiotic cell cortex C-terminal pleckstrin homology  putative,G2M
+Tb927.6.3040,298,368,621,185,251,small GTP-binding protein Rab28  putative,S
+Tb927.10.5180,508,378,211,501,250,TPR-repeat-containing chaperone protein DNAJ  putative,LG1
+Tb927.9.11000,371,674,22,366,249,ras-related protein RAB7  putative,G1
+Tb927.11.5070,613,586,406,112,248,GPI ethanolamine phosphate transferase 3  putative,LG1
+Tb927.8.7280,213,533,448,111,247,emp24/gp25L/p24 family/GOLD  putative,G1
+Tb927.2.4550,505,625,466,63,246,2'-O-ribose RNA methyltransferase SPB1 homolog,G1
+Tb927.10.16090,581,639,236,166,245,Mitochondrial SSU ribosomal protein  putative,G1
+Tb927.3.2230,347,250,692,208,244,succinyl-CoA synthetase alpha subunit  putative,S
+Tb927.11.2800,647,684,32,319,243,hypothetical protein  conserved,G1
+Tb927.3.1560,299,649,120,263,242,TRF-Interacting Factor 2,G1
+Tb927.11.7540,359,626,409,79,241,electron-transfer-flavoprotein  alpha polypeptide  putative,G1
+Tb927.11.10970,611,595,240,217,240,RWD domain/Uncharacterized protein family UPF0029  putative,LG1
+Tb927.11.3750,70,179,443,547,239,NADH-cytochrome b5 reductase  putative,G2M
+Tb927.5.1920,165,233,705,209,238,hypothetical protein  conserved,S
+Tb927.11.12600,219,285,689,179,237,ATP-dependent DNA helicase  putative,S
+Tb927.8.2600,388,451,721,20,236,WD domain  G-beta repeat/BING4CT (NUC141) domain containing protein  putative,S
+Tb927.9.4620,489,219,643,292,235,NEDD8 activating enzyme subunit  putative,S
+Tb927.3.2820,144,693,36,284,234,TFIIF-stimulated CTD phosphatase  putative,G1
+Tb927.8.2610,545,168,658,320,233,5-methyltetrahydropteroyltriglutamate-homocysteine S-methyltransferase  putative,S
+Tb927.2.4800,270,530,400,139,232,hypothetical protein  conserved,G1
+Tb927.11.11350,689,506,306,324,231,hypothetical protein  conserved,LG1
+Tb927.4.1920,243,353,648,164,230,GPI transamidase subunit 16  putative,S
+Tb927.7.3190,448,538,188,293,229,Pseudokinase  putative,G1
+Tb927.7.4190,53,594,114,315,228,zinc finger domain  LSD1 subclass  putative,G1
+Tb927.11.12720,686,277,668,219,227,hypothetical protein  conserved,LG1
+Tb927.11.16270,562,398,701,74,226,TFIIH basal transcription factor complex helicase XPB subunit  putative,S
+Tb927.8.1250,327,406,663,93,225,Sel1 repeat  putative,S
+Tb927.11.13830,643,733,74,43,224,DnaJ domain containing protein  putative,G1
+Tb927.11.14750,662,306,302,516,223,PSP1 C-terminal conserved region  putative,LG1
+Tb927.7.1900,235,616,535,37,222,cdc2-related protein kinase 7  putative,G1
+Tb927.11.1650,623,598,429,85,221,hypothetical protein  conserved,LG1
+Tb927.5.670,317,416,154,500,220,hypothetical protein  conserved,G2M
+Tb927.11.6960,103,460,695,42,219,ATG16/SAP18/CVT11/APG16  putative,S
+Tb927.10.1740,639,492,662,30,218,hypothetical protein  conserved,S
+Tb927.11.5050,500,116,539,509,217,fumarate hydratase  class I,S
+Tb927.8.4440,494,667,201,151,216,mitochondrial carrier protein,G1
+Tb927.10.11730,705,434,557,285,215,zinc finger protein family member  putative,LG1
+Tb927.5.1350,334,228,364,560,214,hypothetical protein  conserved,G2M
+Tb927.7.3870,40,444,105,526,213,hypothetical protein  conserved,G2M
+Tb927.10.14200,234,187,670,294,212,syntaxin 5,S
+Tb927.7.1890,94,260,696,186,211,hypothetical protein  conserved,S
+Tb927.10.9660,737,689,541,8,210,Splicing factor CRN  putative,LG1
+Tb927.10.760,45,486,685,26,209,hypothetical protein  conserved,S
+Tb927.10.8730,303,647,97,286,208,ABC1 family  putative,G1
+Tb927.6.3740,558,548,565,40,207,heat shock 70 kDa protein  mitochondrial precursor  putative,S
+Tb927.10.9980,79,202,711,206,206,hypothetical protein  conserved,S
+Tb927.8.6110,338,671,72,275,205,3-hydroxy-3-methylglutaryl-CoA synthase  putative,G1
+Tb927.6.1810,286,716,223,50,204,Alpha/beta hydrolase family  putative,G1
+Tb927.11.16030,138,337,179,609,203,proteasome regulatory non-ATP-ase subunit 7,G2M
+Tb927.9.8850,429,449,75,562,202,actin A,G2M
+Tb927.6.3840,480,262,230,619,201,reticulon domain protein,G2M
+Tb927.9.7160,273,699,252,67,200,hypothetical protein  conserved,G1
+Tb927.10.15780,471,356,674,127,199,hypothetical protein  conserved,S
+Tb927.10.15370,57,645,460,54,198,DNA-directed RNA polymerases I and III subunit RPAC1  putative,G1
+Tb927.1.4800,313,316,109,659,197,hypothetical protein  conserved,G2M
+Tb927.8.8090,252,579,276,202,196,UDP-Gal or UDP-GlcNAc-dependent glycosyltransferase  putative,G1
+Tb927.10.9820,491,318,713,101,195,mitochondrial intermediate peptidase,S
+Tb927.4.3210,346,148,513,507,194,ESAG11-related protein  putative,S
+Tb927.10.8220,167,577,521,58,193,hypothetical protein  conserved,G1
+Tb927.6.1460,704,214,614,323,192,cyclin 3,LG1
+Tb927.2.4460,216,456,80,537,191,Kinetoplast ribosomal PPR-repeat containing protein 21,G2M
+Tb927.3.4100,312,641,468,53,190,Pyruvate transporter  putative,G1
+Tb927.10.4890,395,280,650,240,189,zinc-finger of a C2HC-type  putative,S
+Tb927.10.2760,143,638,33,361,188,ATPase family associated with various cellular activities (AAA)  putative,G1
+Tb927.2.4580,415,339,87,658,187,UNC119,G2M
+Tb927.10.5590,519,377,163,573,186,protein phosphatase 2C  putative,G2M
+Tb927.10.14800,376,102,382,651,185,mitogen-activated protein kinase 9  putative,G2M
+Tb927.4.2120,163,660,131,226,184,hypothetical protein  conserved,G1
+Tb927.7.7320,438,320,300,499,183,hypothetical protein  conserved,G2M
+Tb927.8.4220,585,150,478,567,182,hypothetical protein  conserved,LG1
+Tb927.11.3970,695,394,454,397,181,hypothetical protein  conserved,LG1
+Tb927.10.11770,537,158,358,626,180,succinate dehydrogenase cytochrome B subunit,G2M
+Tb927.11.15090,352,391,625,136,179,hypothetical protein  conserved,S
+Tb927.11.16460,567,559,461,95,178,hypothetical protein  conserved,LG1
+Tb927.10.4800,463,400,613,145,177,hypothetical protein  conserved,S
+Tb927.4.1590,632,336,288,492,176,Present in the outer mitochondrial membrane proteome 28,LG1
+Tb927.11.3670,474,475,636,57,175,hypothetical protein  conserved,S
+Tb927.10.5890,615,79,550,549,174,Galactose oxidase  central domain containing protein  putative,LG1
+Tb927.5.2740,605,619,31,385,173,Rab-GTPase-TBC domain containing protein  putative,G1
+Tb927.9.17670,531,283,347,485,172,hypothetical protein  conserved,LG1
+Tb927.11.1450,559,547,85,354,171,2-oxoglutarate dehydrogenase E1 component  putative,LG1
+Tb927.11.8390,418,437,9,697,170,hypothetical protein  conserved,G2M
+Tb927.10.7110,324,63,556,572,169,Myo-inositol 1-phosphate synthase,G2M
+Tb927.6.2820,230,622,220,207,168,hypothetical protein  conserved,G1
+Tb927.9.10230,394,536,431,117,167,Co-chaperone protein P23,G1
+Tb927.11.6100,51,570,127,317,166,hypothetical protein  conserved,G1
+Tb927.9.10680,139,558,333,171,165,RNA polymerase III RPC4  putative,G1
+Tb927.11.12350,499,386,629,137,164,DNA photolyase  putative,S
+Tb927.9.3080,377,177,427,570,163,hypothetical protein  conserved,G2M
+Tb927.10.3170,664,529,159,313,162,ABC transporter  putative,LG1
+Tb927.6.2390,601,418,157,493,161,conserved hypothetical protein  putative,LG1
+Tb927.10.3680,673,242,280,603,160,hypothetical protein  conserved,LG1
+Tb927.10.11610,456,681,247,97,159,SKP1-like protein,G1
+Tb927.10.13680,155,361,680,119,158,lipase domain protein  putative,S
+Tb927.1.2230,642,267,128,662,157,small myristoylated protein 1-1,G2M
+Tb927.3.3060,486,604,195,250,156,hypothetical protein  conserved,G1
+Tb927.7.2500,419,94,311,675,155,proteasome regulatory ATPase subunit 1,G2M
+Tb927.11.15020,285,269,694,181,154,iron superoxide dismutase,S
+Tb927.8.5290,293,323,626,224,153,WW domain containing protein  putative,S
+Tb927.6.3980,322,220,317,602,152,hypothetical protein  conserved,G2M
+Tb927.10.16010,504,618,241,190,151,hypothetical protein,G1
+Tb927.4.690,416,528,491,90,150,geranylgeranyl transferase type II beta subunit  putative,G1
+Tb927.5.2570,32,303,161,635,149,eukaryotic translation initiation factor 3 subunit b,G2M
+Tb927.10.12430,549,583,580,23,148,Noc2p family  putative,G1
+Tb927.10.7160,534,565,221,261,147,procyclin-associated gene 1 (PAG1) protein  putative,G1
+Tb927.5.2330,596,658,447,46,146,hypothetical protein  conserved,G1
+Tb927.11.15510,524,310,277,536,145,hypothetical protein  conserved,G2M
+Tb927.8.2300,409,420,147,506,144,hypothetical protein  conserved,G2M
+Tb927.11.10890,495,617,355,110,143,hypothetical protein  conserved,G1
+Tb927.4.1890,68,77,433,649,142,hypothetical protein  conserved,G2M
+Tb927.6.1860,464,182,368,607,141,conserved protein,G2M
+Tb927.10.12960,20,137,652,344,140,Ras-related protein Rab5A,S
+Tb927.11.4700,573,678,473,29,139,prostaglandin f synthase,G1
+Tb927.8.4560,653,537,274,228,138,hypothetical protein  conserved,LG1
+Tb927.11.8080,714,514,393,253,137,btb/poz domain containing protein  putative,LG1
+Tb927.10.7010,447,382,642,134,136,hypothetical protein  conserved,S
+Tb927.11.14170,554,324,314,476,135,hypothetical protein  conserved,LG1
+Tb927.8.5720,164,566,428,108,134,tRNA (guanine(37)-N1)-methyltransferase,G1
+Tb927.10.14180,665,669,270,102,133,protein transport protein SEC13,G1
+Tb927.8.5530,496,48,732,297,132,COP9 signalosome complex subunit 5  putative,S
+Tb927.11.11780,583,340,708,104,131,acyl-CoA dehydrogenase  putative,S
+Tb927.10.5910,676,474,566,222,130,Basal body protein,LG1
+Tb927.10.990,59,688,94,220,129,Enriched in surface-labeled proteome protein 6,G1
+Tb927.6.1350,523,286,344,484,128,Trypanosomal VSG domain containing protein  putative,LG1
+Tb927.3.4810,727,72,620,409,127,dna replication complex gins protein sld5,LG1
+Tb927.2.1890,180,581,140,304,126,E2-like ubiquitin-conjugation enzyme,G1
+Tb927.9.4660,514,288,619,265,125,hypothetical protein  conserved,S
+Tb927.4.1340,728,516,598,45,124,Cleavage and polyadenylation specificity factor subunit,LG1
+Tb927.10.14900,91,630,166,241,123,hypothetical protein  conserved,G1
+Tb927.7.6150,284,654,139,229,122,Protein of unknown function (DUF3522)  putative,G1
+Tb927.11.13440,685,189,606,356,121,mitochondrial carrier protein,LG1
+Tb927.1.2740,484,668,25,363,120,lipase-like protein  putative,G1
+Tb927.8.3740,196,139,651,345,119,pterin 4 alpha carbinolamine dehydratase  putative,S
+Tb927.10.14510,214,627,203,213,118,root hair defective 3 GTP-binding protein (RHD3)  putative,G1
+Tb927.11.6380,136,160,688,299,117,hypothetical protein  conserved,S
+Tb927.11.16290,427,404,611,140,116,AUT2/APG4/ATG4 cysteine peptidase  putative,S
+Tb927.9.5630,453,553,463,99,115,KREPB7,G1
+Tb927.5.2760,645,541,237,260,114,UDP-Gal or UDP-GlcNAc-dependent glycosyltransferase  putative,LG1
+Tb927.10.2960,516,596,275,183,113,Translation factor GUF1  mitochondrial  putative,G1
+Tb927.9.4920,84,419,88,597,112,hypothetical protein  conserved,G2M
+Tb927.9.3760,460,338,632,201,111,Nucleoporin GLE2,S
+Tb927.6.5010,339,278,624,264,110,hypothetical protein  conserved,S
+Tb927.2.5890,89,372,228,497,109,hypothetical protein  conserved,G2M
+Tb927.3.3190,681,281,331,519,108,Serine/threonine-protein kinase NEK7  putative,LG1
+Tb927.4.1870,621,224,370,561,107,Serine/threonine-protein phosphatase 2A catalytic subunit  putative,LG1
+Tb927.11.14570,679,235,637,280,106,LicD family  putative,LG1
+Tb927.8.3480,102,725,124,56,105,hypothetical protein  conserved,G1
+Tb927.10.3210,105,146,715,255,104,delta-1-pyrroline-5-carboxylate dehydrogenase  putative,S
+Tb927.10.14390,67,213,176,667,103,FACT complex subunit POB3,G2M
+Tb927.11.7600,708,587,171,276,102,hypothetical protein  conserved,LG1
+Tb927.11.11310,255,118,303,666,101,hypothetical protein  conserved,G2M
+Tb927.7.7090,543,673,106,243,100,hypothetical protein  conserved,G1
+Tb927.10.10010,535,329,684,152,99,mRNA turnover protein 4 homolog  putative,S
+Tb927.10.14860,366,535,168,307,98,NADH-ubiquinone oxidoreductase B14 subunit,G1
+Tb927.3.2930,414,461,102,505,97,RNA-binding protein RBP6  putative,G2M
+Tb927.10.1840,638,613,130,282,96,hypothetical protein  conserved,LG1
+Tb927.9.9080,63,230,385,538,95,Present in the outer mitochondrial membrane proteome 5,G2M
+Tb927.10.14260,670,697,462,18,94,AP-4 complex subunit sigma-1  putative,G1
+Tb927.10.6050,393,105,731,211,93,clathrin heavy chain,S
+Tb927.4.3660,369,268,316,542,92,hypothetical protein  conserved,G2M
+Tb927.11.13230,385,534,292,215,91,VAMP-associated protein  putative,G1
+Tb927.8.5870,657,110,497,590,90,hypothetical protein  conserved,LG1
+Tb927.3.4880,718,264,559,404,89,nucleosome assembly protein (NAP)  putative,LG1
+Tb927.11.15150,711,498,51,466,88,1-acyl-sn-glycerol-3-phosphate acyltransferase  putative,LG1
+Tb927.11.4370,470,695,142,126,87,hypothetical protein  conserved,G1
+Tb927.8.2480,461,601,264,184,86,3-oxo-5-alpha-steroid 4-dehydrogenase-like  putative,G1
+Tb927.1.720,674,731,27,138,85,phosphoglycerate kinase,G1
+Tb927.6.1230,98,611,281,161,84,kinetoplastid-specific phospho-protein phosphatase,G1
+Tb927.6.1530,150,704,324,41,83,Glutamine amidotransferase class-I  putative,G1
+Tb927.4.2570,502,389,654,118,82,hypothetical protein  conserved,S
+Tb927.11.7214,336,564,141,311,81,hypothetical protein  conserved,G1
+Tb927.3.1810,652,591,568,28,80,hypothetical protein  conserved,LG1
+Tb927.6.4220,193,211,673,268,79,mitogen-activated protein kinase 5,S
+Tb927.7.4790,667,13,260,726,78,proteasome beta 6 subunit,G2M
+Tb927.11.13970,402,154,522,473,77,Pab1p-dependent poly(A) ribonuclease subunit  putative,S
+Tb927.11.9160,114,51,477,663,76,ATPase-like protein  putative,G2M
+Tb927.7.5550,475,334,273,515,75,TLD  putative,G2M
+Tb927.10.15510,345,333,666,169,74,hypothetical protein  conserved,S
+Tb927.8.3160,397,236,735,52,73,hypothetical protein  conserved,S
+Tb927.10.8270,238,702,248,66,72,eukaryotic translation initiation factor 3 subunit c,G1
+Tb927.9.3370,248,104,531,543,71,thioredoxin,G2M
+Tb927.8.6420,379,653,315,100,70,beta-ketoacyl-ACP reductase 2,G1
+Tb927.9.3780,18,121,686,331,69,Mitochondrial pyruvate carrier 1,S
+Tb927.11.6830,140,554,343,163,68,Domain of unknown function(DUF2779)  putative,G1
+Tb927.2.3960,251,696,81,197,67,chaperone protein DnaJ  putative,G1
+Tb927.11.12570,256,574,256,221,66,kinetoplastid-specific dual specificity phosphatase  putative,G1
+Tb927.7.710,518,145,476,575,65,heat shock 70 kDa protein  putative,G2M
+Tb927.10.7030,224,590,421,94,64,hypothetical protein  conserved,G1
+Tb927.11.8440,351,612,99,318,63,haloacid dehalogenase-like hydrolase  putative,G1
+Tb927.8.2200,641,657,310,96,62,terbinafine resistance locus protein (yip1)  putative,G1
+Tb927.3.5660,526,259,193,639,61,UDP-GlcNAc:alpha3-D-mannoside beta-1 2-N-acetylglucosaminyltransferase I,G2M
+Tb927.10.6810,240,176,55,715,60,guanylate kinase  putative,G2M
+Tb927.11.10250,691,499,372,322,59,hypothetical protein  conserved,LG1
+Tb927.6.4280,560,706,30,277,58,glyceraldehyde 3-phosphate dehydrogenase  glycosomal,G1
+Tb927.8.2740,73,178,700,270,57,mitochondrial RNA binding protein,S
+Tb927.10.1560,319,603,285,167,56,Nucleolar protein 91,G1
+Tb927.11.6580,124,670,164,176,55,hypothetical protein  conserved,G1
+Tb927.7.6740,120,194,441,527,54,ATPase family associated with various cellular activities (AAA)  putative,G2M
+Tb927.5.3540,331,376,635,150,53,Meckelin (Transmembrane protein 67)  putative,S
+Tb927.11.2040,326,567,158,300,52,STE/STE11 serine/threonine-protein kinase  putative,G1
+Tb927.4.1640,726,519,246,309,51,Nucleotide sugar transporter 3,LG1
+Tb927.6.1550,188,40,640,434,50,Leucine-rich repeat  ribonuclease inhibitor subtype domain-containing protein,S
+Tb927.5.2910,477,413,144,522,49,hypothetical protein  conserved,G2M
+Tb927.7.490,716,327,604,283,48,hypothetical protein  conserved,LG1
+Tb927.3.3270,739,663,596,5,47,ATP-dependent 6-phosphofructokinase  glycosomal,LG1
+Tb927.10.11190,604,662,160,195,46,tRNA-splicing ligase RtcB  putative,G1
+Tb927.10.16150,587,311,644,218,45,ATP-dependent zinc metallopeptidase  putative,S
+Tb927.11.2030,655,190,678,278,44,hypothetical protein  conserved,S
+Tb927.7.7450,287,711,110,125,43,GTP-binding protein  putative,G1
+Tb927.11.6160,60,720,48,165,42,eukaryotic release factor 3  putative,G1
+Tb927.10.790,434,166,502,483,41,vesicle-associated membrane protein  putative,S
+Tb927.5.4070,166,721,312,21,40,PrimPol-like protein 1,G1
+Tb927.10.6480,309,493,679,22,39,hypothetical protein  conserved,S
+Tb927.11.1980,735,512,733,1,38,zinc finger protein family member  putative,LG1
+Tb927.3.5370,10,37,455,687,37,hypothetical protein  conserved,G2M
+Tb927.10.9430,468,732,111,34,36,phosphoribosylpyrophosphate synthetase  putative,G1
+Tb927.10.5470,55,621,238,187,35,hypothetical protein  conserved,G1
+Tb927.8.1900,343,32,53,730,34,hypothetical protein  conserved,G2M
+Tb927.8.3240,108,560,96,349,33,lathosterol oxidase  putative,G1
+Tb927.9.14230,552,108,514,568,32,hypothetical protein  conserved,G2M
+Tb927.10.11750,625,539,356,162,31,hypothetical protein  conserved,LG1
+Tb927.8.3430,631,738,37,35,30,Meckel syndrome type 1 protein  putative,G1
+Tb927.10.14140,649,735,286,4,29,pyruvate kinase 1,G1
+Tb927.10.10740,267,728,50,103,28,hypothetical protein  conserved,G1
+Tb927.10.10410,283,606,627,3,27,DNA replication licensing factor MCM8  putative,S
+Tb927.4.3270,233,652,178,203,26,ESAG11-related protein  putative,G1
+Tb927.6.1780,423,436,108,535,25,mitogen activated protein kinase 4  putative,G2M
+Tb927.4.2970,280,646,93,290,24,chaperone protein DnaJ  putative,G1
+Tb927.7.5850,332,346,716,77,23,hypothetical protein  conserved,S
+Tb927.2.2920,218,238,381,520,22,UAA transporter family  putative,G2M
+Tb927.8.2400,672,615,78,328,21,hypothetical protein  conserved,LG1
+Tb927.11.6390,450,685,71,256,20,START domain containing protein  putative,G1
+Tb927.7.2270,153,659,70,296,19,hypothetical protein  conserved,G1
+Tb927.9.11360,58,650,121,259,18,hypothetical protein  conserved,G1
+Tb927.1.2570,50,561,340,159,17,coatomer beta subunit,G1
+Tb927.10.9350,121,424,723,24,16,hypothetical protein  conserved,S
+Tb927.10.13720,127,698,10,382,15,RNA-binding protein 29  putative,G1
+Tb927.9.12720,634,672,146,194,14,Ribonuclease D,G1
+Tb927.10.810,553,296,639,234,13,Pentatricopeptide repeat protein (PPR)  putative,S
+Tb927.1.5240,328,54,615,430,12,expression site-associated gene 1 (ESAG1) protein  putative,S
+Tb927.11.610,43,464,20,665,11,hypothetical protein  conserved,G2M
+Tb927.10.2010,61,737,46,31,10,hexokinase,G1
+Tb927.10.1390,586,643,265,133,9,Hypoxanthine-guanine-xanthine phosphoribosyltransferase,G1
+Tb927.11.10510,54,597,299,160,8,ubiquinone biosynthesis methyltransferase  putative,G1
+Tb927.11.270,231,714,189,68,7,mitochondrial carrier protein,G1
+Tb927.5.4290,295,683,413,38,6,hypothetical protein  conserved,G1
+Tb927.11.5840,80,205,297,620,5,Protein translation factor SUI1 homolog  putative,G2M
+Tb927.10.6630,702,730,77,60,4,ATP-dependent RNA helicase DBP2A  putative,G1
+Tb927.3.4590,606,463,34,624,3,hypothetical protein  conserved,G2M
+Tb927.5.1940,113,142,375,631,2,hypothetical protein  conserved,G2M
+Tb927.6.4420,431,656,380,70,1,tRNA (Guanine-1)-methyltransferase  putative,G1
