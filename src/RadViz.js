@@ -335,9 +335,9 @@ function RadViz(){
 
 
 								// move tips position
-								//svg.select('g.tip').attr('transform',  `translate(${margin.left + mouse[0] +20},${margin.top+mouse[1] - 120})`);
+								svg.select('g.tip').attr('transform',  `translate(${margin.left + mouse[0] +20},${margin.top+mouse[1] - 120})`);
 								// display the tip
-								//svg.select('g.tip').attr('display', 'block');
+								svg.select('g.tip').attr('display', 'block');
 								// highlight the point
 								d3.select(this).raise().transition().attr('r', radiusDT*2).attr('stroke-width', 3);	
 								
