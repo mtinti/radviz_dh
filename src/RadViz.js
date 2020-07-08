@@ -141,7 +141,7 @@ function RadViz(){
 		RVTable.each(render);
 		RVRadviz.each(render);
 
-		
+
 		function render(method) {
 			d3.select(this).call(method);	
 		}	
@@ -430,8 +430,8 @@ function RadViz(){
 								.attr("src","all_figures/"+d.Geneid+'.png')
 								.attr("x", 0)
 								.attr("y", 0)
-								.attr("width","400px")
-								.attr("height","200px");
+								.attr("width","600px")
+								.attr("height","300px");
 						tooltip_network.style("visibility", "visible");
 					
 					})
