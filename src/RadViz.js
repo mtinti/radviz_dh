@@ -335,35 +335,35 @@ function RadViz(){
 
 
 								// move tips position
-								svg.select('g.tip').attr('transform',  `translate(${margin.left + mouse[0] +20},${margin.top+mouse[1] - 120})`);
+								//svg.select('g.tip').attr('transform',  `translate(${margin.left + mouse[0] +20},${margin.top+mouse[1] - 120})`);
 								// display the tip
-								svg.select('g.tip').attr('display', 'block');
+								//svg.select('g.tip').attr('display', 'block');
 								// highlight the point
 								d3.select(this).raise().transition().attr('r', radiusDT*2).attr('stroke-width', 3);	
 								
 								
-								tooltip_network.text(d.Geneid);
+								//tooltip_network.text(d.Geneid);
 								//tooltip_network.append('div').text('pippo');
-								tooltip_network.append("img")
-										.attr("src","fig_out/"+d.Geneid+'.png')
-										.attr("x", 0)
-										.attr("y", 0)
-										.attr("width","400px")
-										.attr("height","200px");
-								tooltip_network.style("visibility", "visible");
+								//tooltip_network.append("img")
+								//		.attr("src","fig_out/"+d.Geneid+'.png')
+								//		.attr("x", 0)
+								//		.attr("y", 0)
+								//		.attr("width","400px")
+								//		.attr("height","200px");
+								//tooltip_network.style("visibility", "visible");
 
 
 							})
-							.on("mousemove", function(){return tooltip_network.style("top", (event.pageY-
-								-40)+"px").style("left",(event.pageX-200)+"px");})
+							//.on("mousemove", function(){return tooltip_network.style("top", (event.pageY-
+							//	-40)+"px").style("left",(event.pageX-200)+"px");})
 
 							.on('mouseout', function(d) {
 								// close the tips.
 								svg.select('g.tip').attr('display', 'none');
 								// dis-highlight the point
 								d3.select(this).transition().attr('r', radiusDT).attr('stroke-width', 0.5);
-								tooltip_network.style("visibility", "hidden");
-								//tooltip_network.style("visibility", "hidden");
+							//	tooltip_network.style("visibility", "hidden");
+
 							});					
 					}// end of function drawDT				
 					
