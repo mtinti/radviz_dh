@@ -163,16 +163,14 @@ function RadViz(){
 					render: $.fn.dataTable.render.ellipsis(15)
 				},
 				
-
-					{
-						"targets": [ 0, 8],
-						"visible": false
-					}
+				{
+					"targets": [ 0, 8],
+					"visible": false
+				,}
 					
-					 ] }
+			]}
 
-					 
-				
+					 		
 		);
 
 	
