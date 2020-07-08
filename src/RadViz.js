@@ -425,7 +425,7 @@ function RadViz(){
 						tooltip_network.text(d.Geneid);
 						//tooltip_network.append('div').text('pippo');
 						tooltip_network.append("img")
-								.attr("src","fig_out/"+d.Geneid+'.png')
+								.attr("src","all_figures/"+d.Geneid+'.png')
 								.attr("x", 0)
 								.attr("y", 0)
 								.attr("width","400px")
