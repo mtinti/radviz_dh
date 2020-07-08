@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>RadViz</title>
+	<link rel="stylesheet" type="text/css" href='./libs/bootstrap.min.css'>
+	<link rel="stylesheet" type="text/css" href='https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css'>
+
+<style type="text/css">
+
+	#content {
+		margin-top: 35px;
+		height: 90vh;
+		border-bottom: 1px solid #eee;
+	}
+	#content .col-xs-8 {
+		height: 85vh;
+		overflow: auto;
+	}
+	#content .col-xs-4 {
+		border-right: 1px solid #eee;
+	}
+	
+	#data-table {
+		font-family: 'Helvetica Neue';
+		font-size: 16px;
+		overflow: auto;
+		height: 85vh;
+	}
+	
+	.table-header {
+		background-color: #ccc;
+	}
+	th { font-size: 12px; }
+	td { font-size: 11px; }
+</style>
+
+</head>
+
+<body>
+	<script src='./libs/bootstrap.min.js' defer></script>
+    <script src="./libs/jquery-2.1.4.min.js"></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/d3/5.16.0/d3.js' defer></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.23.1/babel.min.js' defer></script>
+	<script src='https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js' defer></script>
+	<script src='./src/RadViz.js' defer></script>	
+	<script src='all.js' defer></script>	
+	
+    <div class="container-fluid">
+    	
+    	<div class="col-xs-12" id="content">
+
+				<div class="col-xs-6">
+						<div id="radviz">
+							<div class="radviz-title" 
+							style="font-size: 16px; font-family: 'Muli', 
+							'Helvetica', Arial, sans-serif; font-weight: bold; color: #000000;">Image
+							
+							</div>	
+						</div>  
+					 </div>
+
+    		<div class="col-xs-6">
+				<div class="table-title" 
+				style="font-size: 16px; font-family: 'Muli', 
+				'Helvetica', Arial, sans-serif; font-weight: bold; color: #000000;">Data Table
+				</div>
+                <div id="data-table">
+				</div>
+    		</div>
+			
+
+    	</div>
+    </div>
+</body>	
+
+

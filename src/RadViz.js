@@ -140,6 +140,8 @@ function RadViz(){
 		// Rendering
 		RVTable.each(render);
 		RVRadviz.each(render);
+
+		
 		function render(method) {
 			d3.select(this).call(method);	
 		}	
