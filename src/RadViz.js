@@ -62,15 +62,17 @@ function RadViz(){
 		/////////////////////////////////////////////////////////	
 		// Data pre-processing
 		var titles = TableTitle; // get the attributes name
+		//console.log(titles)
 		titles.unshift('index');
 		
 		// rewrite the data
 		var dimensions = Dimensionality,
 			normalizeSuffix = '_normalized',
-			dimensionNamesNormalized = dimensions.map(function(d) { return d + normalizeSuffix; }), // 'sepalL_normalized'
+			dimensionNamesNormalized = dimensions.map(function(d) {  return d + normalizeSuffix; }), // 'sepalL_normalized'
 			DN = dimensions.length,
 			DA = DAnchor.slice(), // intial configuration;	
 			dataE = DATA.slice();
+			//console.log(dataE);
 		//dataE, include more attributes.
 		dataE.forEach((d,i) => {
 			d.index = i;
@@ -82,6 +84,7 @@ function RadViz(){
 		
 		// prepare the DA data 
 		let DAdata = dimensions.map(function(d, i) {
+			//console.log(d);
 			return {
 				theta: DA[i], //[0, 2*PI]
 				x: Math.cos(DA[i])*chartRadius+chartRadius,
@@ -307,7 +310,7 @@ function RadViz(){
 							.attr('dx', d => Math.cos(d.theta) * 15)
 							.attr('dy', d=>Math.sin(d.theta)<0?Math.sin(d.theta)*(15):Math.sin(d.theta)*(15)+ 10)
 							.text(d => d.name)
-							.attr('font-size', '18pt');					
+							.attr('font-size', '16pt');					
 					}//end of function drawDALabel
 
 					// subfunction --> drawDT(): draw the data points.
@@ -369,7 +372,8 @@ function RadViz(){
 					
 					// subfunction --> drawLegend()
 					function drawLegend() {
-						let heightLegend = 25, xLegend = margin.left+chartRadius*1.7, yLegend = 25;
+						
+						let heightLegend = 25, xLegend = margin.left+chartRadius*1.8, yLegend = 25;
 						let legendcircle = center.selectAll('circle.legend').data(colorspace)
 							.enter().append('circle').attr('class', 'legend')
 							.attr('r', radiusDT)
@@ -380,8 +384,9 @@ function RadViz(){
 							.enter().append('text').attr('class', 'legend')
 							.attr('x', xLegend + 2 * radiusDT)
 							.attr('y', (d, i) => i*yLegend+5)
-							.text(d => d).attr('font-size', '16pt').attr('dominat-baseline', 'middle')
+							.text(d => d).attr('font-size', '14pt').attr('dominat-baseline', 'middle')
 							.on('mouseover', function(d){
+								//console.log(d);
 								//when mouse hover, other classes will be discolored.
 								let tempa = d3.select(DOMRadViz).selectAll('.circle-data');
 								tempa.nodes().forEach((element) => {
