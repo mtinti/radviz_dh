@@ -51,9 +51,11 @@ function RadViz(){
 		// set some constent values
 		let	radiusDA = 10,
 			radiusDT = 4; // radius of DA and data points
-		let nodecolor = d3.scaleOrdinal(d3.schemeAccent); //set color scheme
+		let nodecolor = d3.scaleOrdinal([ "#e377c2", "#ff7f0e", "#2ca02c", "#9467bd", "#1f77b4", "#8c564b", "#7f7f7f", "#17becf", "#d62728",   "#bcbd22",]); //set color scheme
+		
+		console.log(nodecolor);
 		const formatnumber = d3.format(',d');		
-		let margin = {top:50, right:1, bottom:50, left:30},
+		let margin = {top:50, right:10, bottom:50, left:10},
 			width = 600,
 			height = 600;		
 		let chartRadius = Math.min((height-margin.top-margin.bottom) , (width-margin.left-margin.right))/2;		
@@ -75,6 +77,7 @@ function RadViz(){
 			//console.log(dataE);
 		//dataE, include more attributes.
 		dataE.forEach((d,i) => {
+			//console.log(d);
 			d.index = i;
 			d.id = i;
 			d.color = nodecolor(ColorAccessor(d));
@@ -307,10 +310,10 @@ function RadViz(){
 							.attr('x', d => d.x).attr('y', d => d.y)
 							.attr('text-anchor', d=>Math.cos(d.theta)>0?'start':'end')
 							.attr('dominat-baseline', d=>Math.sin(d.theta)<0?'baseline':'hanging')
-							.attr('dx', d => Math.cos(d.theta) * 15)
+							.attr('dx', d => Math.cos(d.theta) * 5)
 							.attr('dy', d=>Math.sin(d.theta)<0?Math.sin(d.theta)*(15):Math.sin(d.theta)*(15)+ 10)
 							.text(d => d.name)
-							.attr('font-size', '16pt');					
+							.attr('font-size', '12pt');					
 					}//end of function drawDALabel
 
 					// subfunction --> drawDT(): draw the data points.
