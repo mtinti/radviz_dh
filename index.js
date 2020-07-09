@@ -12,7 +12,7 @@ d3.csv('./data/indata3.csv').then(
 	const dimensionAnchor = Array.apply(null, 
 		{length: dimensions.length}).map(Number.call, Number).map(x=>x*2*Math.PI/(dimensions.length)); // intial DA configration;
 	
-	//console.log('index.js:titles', titles);
+	console.log('index.js:titles', titles);
 	//console.log('index.js:colorAccessor', colorAccessor);
 	//console.log('index.js:dimensions', dimensions);
 	//console.log('index.js:dimensionAnchor', dimensionAnchor);

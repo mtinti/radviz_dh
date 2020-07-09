@@ -51,9 +51,16 @@ function RadViz(){
 		// set some constent values
 		let	radiusDA = 10,
 			radiusDT = 4; // radius of DA and data points
-		let nodecolor = d3.scaleOrdinal([ "#e377c2", "#ff7f0e", "#2ca02c", "#9467bd", "#1f77b4", "#8c564b", "#7f7f7f", "#17becf", "#d62728",   "#bcbd22",]); //set color scheme
+		// "#8c564b", "#7f7f7f", "#17becf", "#d62728",   "#bcbd22",
+
+		//"#ff7f0e" orange
+		//"#e377c2" pink
+		//#2ca02c green
+		//#9467bd pink
+		//#1f77b4 blue
+		let nodecolor = d3.scaleOrdinal([ "#1f77b4", "#ff7f0e", "#2ca02c", "#e377c2", "#9467bd"]); //set color scheme
 		
-		console.log(nodecolor);
+		//console.log(nodecolor);
 		const formatnumber = d3.format(',d');		
 		let margin = {top:60, right:100, bottom:50, left:50},
 			width = 600,
@@ -92,7 +99,7 @@ function RadViz(){
 		
 		// prepare the DA data 
 		let DAdata = dimensions.map(function(d, i) {
-			console.log(d);
+			//console.log('itsd',d);
 			return {
 				theta: DA[i], //[0, 2*PI]
 				x: Math.cos(DA[i])*chartRadius+chartRadius,
@@ -103,7 +110,9 @@ function RadViz(){
 		});	//DAdata is based on DA.
 		// legend data
 		let colorspace = [], colorclass = [];
-		dataE.forEach(function(d, i){
+		dataEE = dataE.filter(item => item.selected !== '0');
+		dataEE.forEach(function(d, i){
+			//console.log(d.color,d.class);
 			if(colorspace.indexOf(d.color)<0) {
 				colorspace.push(d.color); 
 				colorclass.push(d.class); }
@@ -178,7 +187,7 @@ function RadViz(){
 				},
 				
 				{
-					"targets": [ 0, 8],
+					"targets": [ 0],
 					"visible": false
 				,}
 					
@@ -268,7 +277,7 @@ function RadViz(){
 							.attr('cx', d => d.x)
 							.attr('cy', d => d.y)
 							.on('mouseenter', function(d){
-								console.log(d);
+								//console.log(d);
 								let damouse = d3.mouse(this); // get current mouse position
 								svg.select('g.DAtip').select('text').text('(' + formatnumber((d.theta/Math.PI)*180) + ')').attr('fill', 'darkorange').attr('font-size', '18pt');
 								svg.select('g.DAtip').attr('transform',  `translate(${margin.left + damouse[0] +0},${margin.top+damouse[1] - 50})`);
