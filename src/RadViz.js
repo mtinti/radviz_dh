@@ -90,14 +90,10 @@ function RadViz(){
 		//dataE, include more attributes.
 		dataE.forEach((d,i,o) => {
 			//console.log(d);
-			if (d.selected ==="0"){
-				o.splice(i, 1);
-			}
-			//console.log(d);
-			else {
 			d.index = i;
 			d.id = i;
-			d.color = nodecolor(ColorAccessor(d));}
+			d.color = nodecolor(ColorAccessor(d));
+
 		});
 		dataE = addNormalizedValues(dataE);
 		dataE = calculateNodePosition(dataE, dimensionNamesNormalized, DA); // calculateNodePosition. need update when DAs move.	
@@ -115,8 +111,8 @@ function RadViz(){
 		});	//DAdata is based on DA.
 		// legend data
 		let colorspace = [], colorclass = [];
-		dataEE = dataE.filter(item => item.selected !== '0');
-		dataEE.forEach(function(d, i){
+		//dataEE = dataE.filter(item => item.selected !== '0');
+		dataE.forEach(function(d, i){
 			//console.log(d.color,d.class);
 			if(colorspace.indexOf(d.color)<0) {
 				colorspace.push(d.color); 
