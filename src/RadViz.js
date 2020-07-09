@@ -76,11 +76,16 @@ function RadViz(){
 			dataE = DATA.slice();
 			//console.log(dataE);
 		//dataE, include more attributes.
-		dataE.forEach((d,i) => {
+		dataE.forEach((d,i,o) => {
 			//console.log(d);
+			if (d.selected ==="0"){
+				o.splice(i, 1);
+			}
+			//console.log(d);
+			else {
 			d.index = i;
 			d.id = i;
-			d.color = nodecolor(ColorAccessor(d));
+			d.color = nodecolor(ColorAccessor(d));}
 		});
 		dataE = addNormalizedValues(dataE);
 		dataE = calculateNodePosition(dataE, dimensionNamesNormalized, DA); // calculateNodePosition. need update when DAs move.	
