@@ -3,11 +3,11 @@
 		height: 90vh;
 		border-bottom: 1px solid #eee;
 	}
-#content .col-xs-8 {
+#content .col-xs-6 {
 		height: 85vh;
 		overflow: auto;
 	}
-#content .col-xs-4 {
+#content .col-xs-6 {
 		border-right: 1px solid #eee;
 	}
 	
@@ -27,3 +27,4 @@ td { font-size: 11px; }
 label {font-size: 12px;}
 
 #paginate_button {font-size: 12px;}
+

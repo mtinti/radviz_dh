@@ -55,7 +55,7 @@ function RadViz(){
 		
 		console.log(nodecolor);
 		const formatnumber = d3.format(',d');		
-		let margin = {top:50, right:10, bottom:50, left:10},
+		let margin = {top:60, right:100, bottom:50, left:50},
 			width = 600,
 			height = 600;		
 		let chartRadius = Math.min((height-margin.top-margin.bottom) , (width-margin.left-margin.right))/2;		
@@ -87,7 +87,7 @@ function RadViz(){
 		
 		// prepare the DA data 
 		let DAdata = dimensions.map(function(d, i) {
-			//console.log(d);
+			console.log(d);
 			return {
 				theta: DA[i], //[0, 2*PI]
 				x: Math.cos(DA[i])*chartRadius+chartRadius,
@@ -191,6 +191,7 @@ function RadViz(){
 			// re-intialized all data and then calculate
 			DA = DAnchor.slice();
 			DAdata = dimensions.map(function(d, i) {
+				//console.log(d);
 				return {
 					theta: DA[i], //[0, 2*PI]
 					x: Math.cos(DA[i])*chartRadius+chartRadius,
@@ -198,6 +199,7 @@ function RadViz(){
 					fixed: true,
 					name: d
 					};
+
 			});	//DAdata is based on DA.
 			calculateNodePosition(dataE, dimensionNamesNormalized, DA);		
 			//re-rendering
@@ -260,6 +262,7 @@ function RadViz(){
 							.attr('cx', d => d.x)
 							.attr('cy', d => d.y)
 							.on('mouseenter', function(d){
+								console.log(d);
 								let damouse = d3.mouse(this); // get current mouse position
 								svg.select('g.DAtip').select('text').text('(' + formatnumber((d.theta/Math.PI)*180) + ')').attr('fill', 'darkorange').attr('font-size', '18pt');
 								svg.select('g.DAtip').attr('transform',  `translate(${margin.left + damouse[0] +0},${margin.top+damouse[1] - 50})`);
@@ -310,7 +313,7 @@ function RadViz(){
 							.attr('x', d => d.x).attr('y', d => d.y)
 							.attr('text-anchor', d=>Math.cos(d.theta)>0?'start':'end')
 							.attr('dominat-baseline', d=>Math.sin(d.theta)<0?'baseline':'hanging')
-							.attr('dx', d => Math.cos(d.theta) * 5)
+							.attr('dx', d => Math.cos(d.theta) * 3)
 							.attr('dy', d=>Math.sin(d.theta)<0?Math.sin(d.theta)*(15):Math.sin(d.theta)*(15)+ 10)
 							.text(d => d.name)
 							.attr('font-size', '12pt');					
@@ -376,7 +379,7 @@ function RadViz(){
 					// subfunction --> drawLegend()
 					function drawLegend() {
 						
-						let heightLegend = 25, xLegend = margin.left+chartRadius*1.8, yLegend = 25;
+						let heightLegend = 20, xLegend = margin.left+chartRadius*1.6, yLegend = 18;
 						let legendcircle = center.selectAll('circle.legend').data(colorspace)
 							.enter().append('circle').attr('class', 'legend')
 							.attr('r', radiusDT)
@@ -387,7 +390,7 @@ function RadViz(){
 							.enter().append('text').attr('class', 'legend')
 							.attr('x', xLegend + 2 * radiusDT)
 							.attr('y', (d, i) => i*yLegend+5)
-							.text(d => d).attr('font-size', '14pt').attr('dominat-baseline', 'middle')
+							.text(d => d).attr('font-size', '12pt').attr('dominat-baseline', 'middle')
 							.on('mouseover', function(d){
 								//console.log(d);
 								//when mouse hover, other classes will be discolored.
