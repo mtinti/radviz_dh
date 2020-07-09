@@ -177,7 +177,7 @@ function RadViz(){
 					"visible": true,
 					render: function ( data, type, row ) 
 					{
-					return parseFloat(data).toFixed(0);
+					return parseFloat(data).toFixed(3);
 					}
 
 				},
