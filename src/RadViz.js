@@ -51,9 +51,16 @@ function RadViz(){
 		// set some constent values
 		let	radiusDA = 10,
 			radiusDT = 4; // radius of DA and data points
-		let nodecolor = d3.scaleOrdinal([ "#e377c2", "#ff7f0e", "#2ca02c", "#9467bd", "#1f77b4", "#8c564b", "#7f7f7f", "#17becf", "#d62728",   "#bcbd22",]); //set color scheme
+		// "#8c564b", "#7f7f7f", "#17becf", "#d62728",   "#bcbd22",
+
+		//"#ff7f0e" orange
+		//"#e377c2" pink
+		//#2ca02c green
+		//#9467bd pink
+		//#1f77b4 blue
+		let nodecolor = d3.scaleOrdinal([ "#1f77b4", "#ff7f0e", "#2ca02c", "#e377c2", "#9467bd"]); //set color scheme
 		
-		console.log(nodecolor);
+		//console.log(nodecolor);
 		const formatnumber = d3.format(',d');		
 		let margin = {top:60, right:100, bottom:50, left:50},
 			width = 600,
@@ -67,14 +74,19 @@ function RadViz(){
 		//console.log(titles)
 		titles.unshift('index');
 		
+		var dataE = DATA.slice();
+		
+		//console.log('dataE',dataE)
+
 		// rewrite the data
 		var dimensions = Dimensionality,
 			normalizeSuffix = '_normalized',
 			dimensionNamesNormalized = dimensions.map(function(d) {  return d + normalizeSuffix; }), // 'sepalL_normalized'
 			DN = dimensions.length,
-			DA = DAnchor.slice(), // intial configuration;	
-			dataE = DATA.slice();
-			//console.log(dataE);
+			DA = DAnchor.slice(), // intial configuration;
+			dataE = dataE;
+
+
 		//dataE, include more attributes.
 		dataE.forEach((d,i,o) => {
 			//console.log(d);
@@ -92,7 +104,7 @@ function RadViz(){
 		
 		// prepare the DA data 
 		let DAdata = dimensions.map(function(d, i) {
-			console.log(d);
+			//console.log('itsd',d);
 			return {
 				theta: DA[i], //[0, 2*PI]
 				x: Math.cos(DA[i])*chartRadius+chartRadius,
@@ -103,7 +115,9 @@ function RadViz(){
 		});	//DAdata is based on DA.
 		// legend data
 		let colorspace = [], colorclass = [];
-		dataE.forEach(function(d, i){
+		dataEE = dataE.filter(item => item.selected !== '0');
+		dataEE.forEach(function(d, i){
+			//console.log(d.color,d.class);
 			if(colorspace.indexOf(d.color)<0) {
 				colorspace.push(d.color); 
 				colorclass.push(d.class); }
@@ -111,6 +125,7 @@ function RadViz(){
 			
 		/////////////////////////////////////////////////////////
 		// define DOM components
+		//var dataE = DATA.slice();
 		const table = d3.select(DOMTable).append('table').attr('id', 'final_table').attr('class','table table-hover');
 		const radviz = d3.select(DOMRadViz);
 		let svg = radviz.append('svg').attr('id', 'radviz')
@@ -177,7 +192,7 @@ function RadViz(){
 				},
 				
 				{
-					"targets": [ 0, 8],
+					"targets": [ 0],
 					"visible": false
 				,}
 					
@@ -267,7 +282,7 @@ function RadViz(){
 							.attr('cx', d => d.x)
 							.attr('cy', d => d.y)
 							.on('mouseenter', function(d){
-								console.log(d);
+								//console.log(d);
 								let damouse = d3.mouse(this); // get current mouse position
 								svg.select('g.DAtip').select('text').text('(' + formatnumber((d.theta/Math.PI)*180) + ')').attr('fill', 'darkorange').attr('font-size', '18pt');
 								svg.select('g.DAtip').attr('transform',  `translate(${margin.left + damouse[0] +0},${margin.top+damouse[1] - 50})`);
@@ -326,9 +341,10 @@ function RadViz(){
 
 					// subfunction --> drawDT(): draw the data points.
 					function drawDT(){
+						dataEE = dataE.filter(item => item.selected !== '0');
 						center.selectAll('.circle-data').remove();
 						let DTNodes = center.selectAll('.circle-data')
-							.data(dataE).enter().append('circle').attr('class', 'circle-data')
+							.data(dataEE).enter().append('circle').attr('class', 'circle-data')
 							.attr('id', d=>d.index)
 							.attr('r', radiusDT)
 							.attr('fill', d=>d.color)
@@ -433,11 +449,14 @@ function RadViz(){
 
 				const cells = rows.enter().append('tr')
 					.on('mouseover', function(d,i) { 
+
+
 						let tempa = d3.select(DOMRadViz).selectAll('.circle-data');
 						tempa.nodes().forEach((element) => { 
 							if (element.getAttribute('id') == i) {
 								d3.select(element).raise().transition().attr('r', radiusDT*2).attr('stroke-width', 3);
 							}
+							//console.log(element);
 						});
 					
 						tooltip_network.text(d.Geneid);
@@ -454,12 +473,14 @@ function RadViz(){
 					.on("mousemove", function(){return tooltip_network.style("top", (event.pageY-
 						-40)+"px").style("left",(event.pageX-200)+"px");})
 					.on('mouseout', function(d, i) {
+
 						let tempa = d3.select(DOMRadViz).selectAll('.circle-data');
 						tempa.nodes().forEach((element) => {
 							if (element.getAttribute('id') == i) {
 								d3.select(element).transition().attr('r', radiusDT).attr('stroke-width', 0.5);
 							}
 						});	
+
 						tooltip_network.style("visibility", "hidden");				
 					});
 
