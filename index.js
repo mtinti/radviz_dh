@@ -1,5 +1,5 @@
 // dataset: iris
-d3.csv('./data/indata2.csv').then(
+d3.csv('./data/indata3.csv').then(
 	function(data) {
 	
 	

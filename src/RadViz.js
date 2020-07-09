@@ -67,14 +67,19 @@ function RadViz(){
 		//console.log(titles)
 		titles.unshift('index');
 		
+		var dataE = DATA.slice();
+		
+		//console.log('dataE',dataE)
+
 		// rewrite the data
 		var dimensions = Dimensionality,
 			normalizeSuffix = '_normalized',
 			dimensionNamesNormalized = dimensions.map(function(d) {  return d + normalizeSuffix; }), // 'sepalL_normalized'
 			DN = dimensions.length,
-			DA = DAnchor.slice(), // intial configuration;	
-			dataE = DATA.slice();
-			//console.log(dataE);
+			DA = DAnchor.slice(), // intial configuration;
+			dataE = dataE;
+
+
 		//dataE, include more attributes.
 		dataE.forEach((d,i) => {
 			//console.log(d);
@@ -106,6 +111,7 @@ function RadViz(){
 			
 		/////////////////////////////////////////////////////////
 		// define DOM components
+		//var dataE = DATA.slice();
 		const table = d3.select(DOMTable).append('table').attr('id', 'final_table').attr('class','table table-hover');
 		const radviz = d3.select(DOMRadViz);
 		let svg = radviz.append('svg').attr('id', 'radviz')
@@ -321,9 +327,10 @@ function RadViz(){
 
 					// subfunction --> drawDT(): draw the data points.
 					function drawDT(){
+						dataEE = dataE.filter(item => item.selected !== '0');
 						center.selectAll('.circle-data').remove();
 						let DTNodes = center.selectAll('.circle-data')
-							.data(dataE).enter().append('circle').attr('class', 'circle-data')
+							.data(dataEE).enter().append('circle').attr('class', 'circle-data')
 							.attr('id', d=>d.index)
 							.attr('r', radiusDT)
 							.attr('fill', d=>d.color)
@@ -428,11 +435,14 @@ function RadViz(){
 
 				const cells = rows.enter().append('tr')
 					.on('mouseover', function(d,i) { 
+
+
 						let tempa = d3.select(DOMRadViz).selectAll('.circle-data');
 						tempa.nodes().forEach((element) => { 
 							if (element.getAttribute('id') == i) {
 								d3.select(element).raise().transition().attr('r', radiusDT*2).attr('stroke-width', 3);
 							}
+							//console.log(element);
 						});
 					
 						tooltip_network.text(d.Geneid);
@@ -449,12 +459,14 @@ function RadViz(){
 					.on("mousemove", function(){return tooltip_network.style("top", (event.pageY-
 						-40)+"px").style("left",(event.pageX-200)+"px");})
 					.on('mouseout', function(d, i) {
+
 						let tempa = d3.select(DOMRadViz).selectAll('.circle-data');
 						tempa.nodes().forEach((element) => {
 							if (element.getAttribute('id') == i) {
 								d3.select(element).transition().attr('r', radiusDT).attr('stroke-width', 0.5);
 							}
 						});	
+
 						tooltip_network.style("visibility", "hidden");				
 					});
 
