@@ -171,7 +171,7 @@ function RadViz(){
 		oTable = $('#final_table').DataTable(
 			
 			{
-				searching: false,
+				//searching: false,
 			
 				columnDefs: [
 
@@ -200,8 +200,8 @@ function RadViz(){
 					 		
 		);
 
-		$('#myInputTextField').keyup(function(){
-			oTable.search($(this).val()).draw() ;})
+		//$('#myInputTextField').keyup(function(){
+		//	oTable.search($(this).val()).draw() ;})
 	
 		/////////////////////////////////////////////////////////
 		// reset functions
