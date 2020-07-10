@@ -56,9 +56,9 @@ function RadViz(){
 		//"#ff7f0e" orange
 		//"#e377c2" pink
 		//#2ca02c green
-		//#9467bd pink
+		//#9467bd violet
 		//#1f77b4 blue
-		let nodecolor = d3.scaleOrdinal([ "#1f77b4", "#ff7f0e", "#2ca02c", "#e377c2", "#9467bd"]); //set color scheme
+		let nodecolor = d3.scaleOrdinal([ "#1f77b4", "#2ca02c",  "#e377c2","#ff7f0e", "#9467bd" ]); //set color scheme
 		
 		//console.log(nodecolor);
 		const formatnumber = d3.format(',d');		
