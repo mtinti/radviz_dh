@@ -49,7 +49,7 @@ function RadViz(){
 	function RV(div) {		
 		/////////////////////////////////////////////////////////
 		// set some constent values
-		let	radiusDA = 10,
+		let	radiusDA = 8,
 			radiusDT = 4; // radius of DA and data points
 		// "#8c564b", "#7f7f7f", "#17becf", "#d62728",   "#bcbd22",
 
@@ -285,7 +285,7 @@ function RadViz(){
 							.on('mouseenter', function(d){
 								//console.log(d);
 								let damouse = d3.mouse(this); // get current mouse position
-								svg.select('g.DAtip').select('text').text('(' + formatnumber((d.theta/Math.PI)*180) + ')').attr('fill', 'darkorange').attr('font-size', '18pt');
+								svg.select('g.DAtip').select('text').text('moving to ' + formatnumber((d.theta/Math.PI)*180) + ' degree').attr('fill', 'gray').attr('font-size', '10pt');
 								svg.select('g.DAtip').attr('transform',  `translate(${margin.left + damouse[0] +0},${margin.top+damouse[1] - 50})`);
 								svg.select('g.DAtip').attr('display', 'block');
 							})
