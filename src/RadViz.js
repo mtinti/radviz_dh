@@ -168,9 +168,12 @@ function RadViz(){
 			d3.select(this).call(method);	
 		}	
 		
-		$('#final_table').DataTable(
-
-			{columnDefs: [
+		oTable = $('#final_table').DataTable(
+			
+			{
+				searching: false,
+			
+				columnDefs: [
 
 				{
 					"targets": [2,3,4,5,6],
@@ -197,6 +200,8 @@ function RadViz(){
 					 		
 		);
 
+		$('#myInputTextField').keyup(function(){
+			oTable.search($(this).val()).draw() ;})
 	
 		/////////////////////////////////////////////////////////
 		// reset functions
