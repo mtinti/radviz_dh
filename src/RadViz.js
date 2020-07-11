@@ -62,7 +62,7 @@ function RadViz(){
 		
 		//console.log(nodecolor);
 		const formatnumber = d3.format(',d');		
-		let margin = {top:60, right:100, bottom:50, left:50},
+		let margin = {top:60, right:100, bottom:5, left:50},
 			width = 600,
 			height = 600;		
 		let chartRadius = Math.min((height-margin.top-margin.bottom) , (width-margin.left-margin.right))/2;		
