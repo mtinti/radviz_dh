@@ -386,7 +386,7 @@ function RadViz(){
 
 							})
 							.on("mousemove", function(){return tooltip_network.style("top", (event.pageY-
-								-40)+"px").style("left",(event.pageX-200)+"px");})
+								-40)+"px").style("left",(event.pageX-100)+"px");})
 
 							.on('mouseout', function(d) {
 								// close the tips.
