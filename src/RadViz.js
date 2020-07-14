@@ -342,7 +342,7 @@ function RadViz(){
 
 					// subfunction --> drawDT(): draw the data points.
 					function drawDT(){
-						dataEE = dataE.filter(item => item.selected !== '0');
+						dataEE = dataE.filter(item => item.selected !== 'no');
 						center.selectAll('.circle-data').remove();
 						let DTNodes = center.selectAll('.circle-data')
 							.data(dataEE).enter().append('circle').attr('class', 'circle-data')
