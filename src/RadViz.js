@@ -49,8 +49,8 @@ function RadViz(){
 	function RV(div) {		
 		/////////////////////////////////////////////////////////
 		// set some constent values
-		let	radiusDA = 8,
-			radiusDT = 4; // radius of DA and data points
+		let	radiusDA = 8, //radius of anchor points
+			radiusDT = 3; // radius of DA and data points
 		// "#8c564b", "#7f7f7f", "#17becf", "#d62728",   "#bcbd22",
 
 		//"#ff7f0e" orange
@@ -58,14 +58,24 @@ function RadViz(){
 		//#2ca02c green
 		//#9467bd violet
 		//#1f77b4 blue
-		let nodecolor = d3.scaleOrdinal([ "#1f77b4", "#2ca02c",  "#e377c2","#ff7f0e", "#9467bd" ]); //set color scheme
+		//let nodecolor = d3.scaleOrdinal(["#1f77b4", "#9467bd", "#e377c2", "#ff7f0e", "#2ca02c" ]); //set color scheme
+
 		
+		let nodecolor = d3.scaleOrdinal(["#2ca02c", "#ff7f0e", "#e377c2", "#9467bd", "#1f77b4" ]); //set color scheme
+											//green    orange    pink          violet      blue
+											//  S                               G1       G2M
 		//console.log(nodecolor);
 		const formatnumber = d3.format(',d');		
 		let margin = {top:60, right:100, bottom:5, left:50},
-			width = 600,
-			height = 600;		
-		let chartRadius = Math.min((height-margin.top-margin.bottom) , (width-margin.left-margin.right))/2;		
+			width = 800,
+			height = 800;		
+		let chartRadius = Math.min((height-margin.top-margin.bottom) , (width-margin.left-margin.right))/2;	
+		
+		//let chartRadius2 = Math.min((height-margin.top-margin.bottom) , (width-margin.left-margin.right))/4;	
+
+
+		
+		//console.log('chartRadius',chartRadius, chartRadius2);
 		
 		
 		/////////////////////////////////////////////////////////	
@@ -131,7 +141,8 @@ function RadViz(){
 			.attr('width', width)
 			.attr('height', height);
 		// transform a distance.(can treat as margin)
-		let center = svg.append('g').attr('class', 'center').attr('transform', `translate(${margin.left},${margin.top})`); 	
+		let center = svg.append('g').attr('class', 'center').attr('transform', `translate(${margin.left},${margin.top})`); 
+		//console.log(center,'center');
 		// prepare the DA tips components
 		svg.append('rect').attr('class', 'DAtip-rect');			
 		let DAtipContainer = svg.append('g').attr('x', 0).attr('y', 0);
@@ -227,13 +238,39 @@ function RadViz(){
 			RVRadviz.each(render);
 		} 
 		/////////////////////////////////////////////////////////
+
+		function drawPanel2(a, offset) {
+			let panel = center.append('circle')
+				.attr('class', 'big-circle')
+				.attr('stroke', d3.rgb(178,190,181))
+				.attr('stroke-width', 3)
+				.attr('fill', 'transparent')
+				.attr('r', a)
+				.attr('cx', a+offset)
+				.attr('cy', a+offset);
+		}//end of function drawPanel()
+
 		// Function for display radviz
 		function RVradviz(){
 			function chart(div) {
 				div.each(function() {
 					/* --------------- section --------------- */
 					/*Draw the big circle: drawPanel(chartRadius)*/
+					//drawPanel(chartRadius-100);
 					drawPanel(chartRadius);
+
+					drawPanel2(chartRadius-50, 50)
+					drawPanel2(chartRadius-100, 100)
+					drawPanel2(chartRadius-150, 150)
+					drawPanel2(chartRadius-200, 200)
+					drawPanel2(chartRadius-250, 250)
+
+
+
+					//drawPanel(chartRadius-5);
+					//drawPanel(20);
+					//drawPanel(chartRadius2);
+					
 					/* --------------- section --------------- */
 					/*Draw the Dimensional Anchor nodes: tips components, and then call drawDA() to draw DA points, and call drawDALabel to draw DA labels*/
 					drawDA();// draw the DA nodes
@@ -343,6 +380,8 @@ function RadViz(){
 					// subfunction --> drawDT(): draw the data points.
 					function drawDT(){
 						dataEE = dataE.filter(item => item.selected !== 'no');
+						//console.log('dataEE',dataEE);
+
 						center.selectAll('.circle-data').remove();
 						let DTNodes = center.selectAll('.circle-data')
 							.data(dataEE).enter().append('circle').attr('class', 'circle-data')
@@ -354,7 +393,7 @@ function RadViz(){
 							.attr('cx', d => d.x0*chartRadius + chartRadius)
 							.attr('cy', d => d.y0*chartRadius + chartRadius)
 							.on('mouseenter', function(d) {
-								//console.log('d',d)
+								console.log('d',d);
 								let mouse = d3.mouse(this); //get current mouse position.
 								
 
@@ -498,6 +537,10 @@ function RadViz(){
 					.merge(cell);
 			});
 		} // end of RVTable function
+
+
+
+
 	
 		/////////////////////////////////////////////////////////
 		// functions for data processing
