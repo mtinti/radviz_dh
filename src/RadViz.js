@@ -198,7 +198,7 @@ function RadViz(){
 
 				{
 					targets: [1,7],
-					render: $.fn.dataTable.render.ellipsis(15)
+					render: $.fn.dataTable.render.ellipsis(20)
 				},
 				
 				{
