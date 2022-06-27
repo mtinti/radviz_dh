@@ -401,6 +401,8 @@ function RadViz(){
 								let tip = svg.select('g.tip').selectAll('text').text(function(k, i){
 									return k + ': ' + d[k];
 								})
+
+								oTable.search(d['Geneid']).draw();
 								
 
 
@@ -433,6 +435,7 @@ function RadViz(){
 								// dis-highlight the point
 								d3.select(this).transition().attr('r', radiusDT).attr('stroke-width', 0.5);
 								tooltip_network.style("visibility", "hidden");
+								oTable.search('').draw();
 
 							});					
 					}// end of function drawDT				
