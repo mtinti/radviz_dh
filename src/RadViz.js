@@ -259,11 +259,11 @@ function RadViz(){
 					//drawPanel(chartRadius-100);
 					drawPanel(chartRadius);
 
-					drawPanel2(chartRadius-50, 50)
-					drawPanel2(chartRadius-100, 100)
-					drawPanel2(chartRadius-150, 150)
-					drawPanel2(chartRadius-200, 200)
-					drawPanel2(chartRadius-250, 250)
+					//#drawPanel2(chartRadius-50, 50)
+					//#drawPanel2(chartRadius-100, 100)
+					//#drawPanel2(chartRadius-150, 150)
+					//#drawPanel2(chartRadius-200, 200)
+					//#drawPanel2(chartRadius-250, 250)
 
 
 
