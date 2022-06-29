@@ -61,7 +61,7 @@ function RadViz(){
 		//let nodecolor = d3.scaleOrdinal(["#1f77b4", "#9467bd", "#e377c2", "#ff7f0e", "#2ca02c" ]); //set color scheme
 
 		
-		let nodecolor = d3.scaleOrdinal(["#2ca02c", "#ff7f0e", "#e377c2", "#9467bd", "#1f77b4" ]); //set color scheme
+		let nodecolor = d3.scaleOrdinal(["#2ca02c", "#9467bd", "#e377c2", "#ff7f0e",  "#1f77b4" ]); //set color scheme
 											//green    orange    pink          violet      blue
 											//  S                               G1       G2M
 		//console.log(nodecolor);
