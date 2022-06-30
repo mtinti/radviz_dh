@@ -61,7 +61,7 @@ function RadViz(){
 		//let nodecolor = d3.scaleOrdinal(["#1f77b4", "#9467bd", "#e377c2", "#ff7f0e", "#2ca02c" ]); //set color scheme
 
 		
-		let nodecolor = d3.scaleOrdinal(["#2ca02c", "#9467bd", "#e377c2", "#ff7f0e",  "#1f77b4" ]); //set color scheme
+		let nodecolor = d3.scaleOrdinal(["#2ca02c", "#9467bd", "#e377c2",   "#1f77b4" ,"#ff7f0e",]); //set color scheme
 											//green    orange    pink          violet      blue
 											//  S                               G1       G2M
 		//console.log(nodecolor);
@@ -242,13 +242,26 @@ function RadViz(){
 		function drawPanel2(a, offset) {
 			let panel = center.append('circle')
 				.attr('class', 'big-circle')
-				.attr('stroke', d3.rgb(178,190,181))
+				.attr('stroke', d3.rgb(224,224,224))
 				.attr('stroke-width', 3)
 				.attr('fill', 'transparent')
 				.attr('r', a)
 				.attr('cx', a+offset)
 				.attr('cy', a+offset);
 		}//end of function drawPanel()
+
+		function drawPanel3(a, offset) {
+			let panel = center.append('circle')
+				.attr('class', 'big-circle')
+				.attr('stroke', d3.rgb(0,0,0))
+				.attr('stroke-width', 3)
+				.attr('fill', 'transparent')
+				.attr('r', a)
+				.attr('cx', a+offset)
+				.attr('cy', a+offset);
+		}//end of function drawPanel()		
+
+
 
 		// Function for display radviz
 		function RVradviz(){
@@ -259,11 +272,13 @@ function RadViz(){
 					//drawPanel(chartRadius-100);
 					drawPanel(chartRadius);
 
-					//#drawPanel2(chartRadius-50, 50)
+					drawPanel3(chartRadius-310, 310);
 					//#drawPanel2(chartRadius-100, 100)
 					//#drawPanel2(chartRadius-150, 150)
-					//#drawPanel2(chartRadius-200, 200)
+					drawPanel2(chartRadius-200, 200)
 					//#drawPanel2(chartRadius-250, 250)
+
+					drawPanel2(chartRadius-100, 100)
 
 
 
