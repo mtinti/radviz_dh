@@ -33,7 +33,7 @@
 			  <span class="icon-bar"></span>
 			</button>
 			
-			<a class="navbar-brand" href="#">Genome-scale functional profiling of cell cycle controls in African trypanosomes</a>
+			<a class="navbar-brand" href="#">Genome-scale RNA interference profiling of Trypanosoma brucei cell cycle progression defects</a>
 		  </div>
 		  <div id="navbar" class="navbar-collapse collapse">
 			<ul class="nav navbar-nav">
@@ -42,7 +42,7 @@
 			  <li class="dropdown">
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contacts <span class="caret"></span></a>
 				<ul class="dropdown-menu">
-						<li>Experimentalist<a href="mailto:someone@example.com">Catarina Marques</a></li>
+						
 						<li>Web Development<a href="mailto:m.tinti@dundee.ac.uk"> Michele Tinti</a></li>
 						<li>Principal Investigator<a href="mailto:d.horn@dundee.ac.uk">David Horn</a></li>
 				</ul>
@@ -88,15 +88,16 @@
 						<div> 
 							
 							<h2>App Description</h2>
-							This app allows easy navigation of the cell cycle dataset. 
-                            The Radviz visualization on the left pulls the genes (little circles) closer to the time point where they show maximum expression.
-                            The genes have been arbitrarily assigned to one class, the one where they show the maximum number of reads. As genes might be involved in 
-                            multiple time points, the mapping is just a rough indication. In particular, When a gene is found with a similar amount 
-                            of reads in different time points, it is pulled towards the centre of the plot.
-                            The reads coverage plots (appearing as tooltips 
-                            after hoovering on the gene table or the radviz plot) should be used to assess 
-                            the number of different fragments that hit a gene. This can be approximately evaluated by the amount of piled-up reads that appears in the 
-                            images (barcoded reads).
+							This app allows easy navigation of the cell cycle RIT-seq dataset (also see Marques et al., 2022 and 
+							Additional file 1 therein). The Radviz visualization on the left pulls the genes (data-points) 
+							closer to the 'time-point' where they show maximum accumulation. The read-coverage plots appear as 
+							tooltips after hovering over data-points in the Radviz plot or over the gene table. 
+							These coverage plots can be used to assess the number of different RNAi target fragments 
+							(that support a given phenotype) for each gene (also considering the untranslated regions), 
+							by counting the number of paired stacks of barcoded reads flanking each fragment. 
+							For example, the 300 bp 10.10030 CDS appears to be targeted by a single fragment, 
+							while the average-length 1.6 kbp 9.12810 CDS appears to be targeted by seven or more fragments. 
+							All genes have been assigned to a class where they register an elevated read-count.
 							
 							
 						</div>
